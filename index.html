@@ -10,20 +10,7 @@
     <!-- CSS -->
     <link href="static/css/bootstrap.css" rel="stylesheet">
     <link href="static/css/sticky-footer.css" rel="stylesheet">
-    <style type="text/css">
-
-      /* Custom page CSS
-      -------------------------------------------------- */
-      /* Not required for template or sticky footer method. */
-
-      .container {
-      width: auto;
-      max-width: 680px;
-      }
-      .container .credit {
-      margin: 20px 0;
-      }
-    </style>
+    <link href="static/css/siggame.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -40,18 +27,32 @@
 
       <!-- Begin page content -->
       <div class="container">
+
+		<!-- Fork me on github flag -->
+		<div class="row">
+		  <div class="span2 offset7">
+			<a href="https://github.com/siggame">
+			  <img style="position: absolute; top: 0; border: 0;" 
+				   src="https://github.com/jamesflorentino/fork-ribbons/raw/master/ribbons/green-white.png" 
+				   alt="Fork me on GitHub">
+			</a>
+		  </div>
+		</div>
+
+		<!-- Navigation bar -->
         <div class="navbar">
           <div class="navbar-inner">
             <a class="brand" href="#">SIG-Game</a>
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="about_us.html">About Us</a></li>
-              <li><a href="http://github.com/siggame">Our GitHub Page</a></li>
             </ul>
           </div>
         </div>
 
-		<img src="static/img/wrench.png" alt="Missouri S&amp;T ACM SIG-Game"/>
+		<img id="brand"
+			 src="static/img/wrench.png" 
+			 alt="Missouri S&amp;T ACM SIG-Game"/>
 		<hr>
 
 		<p>
@@ -75,7 +76,7 @@
 			Visualizer
 			<ul>
 			  <li> <a href="https://github.com/siggame/visualizer"> Source </a> </li>
-			  <li> <a href="http://siggame.github.com/visualizer/python/html/"> Documentation </a> </li>
+			  <li> <a href="http://siggame.github.com/visualizer/python/html/"> PyVis Documentation </a> </li>
 			</ul>
 		  </li>
 		</ul>
