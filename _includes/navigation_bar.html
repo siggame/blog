@@ -1,0 +1,14 @@
+<!-- Navigation bar -->
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">SIG-Game</a>
+    <ul class="nav">
+      <li {% if page.navbar == "home" %}class="active"{% endif %}>
+		<a href="index.html">Home</a>
+	  </li>
+      <li {% if page.navbar == "about" %}class="active"{% endif %}>
+		<a href="about_us.html">About Us</a>
+	  </li>
+    </ul>
+  </div>
+</div>

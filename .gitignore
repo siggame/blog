@@ -3,3 +3,6 @@
 
 # Ignore temp files
 *~
+
+# For Jekyll
+_site/*
