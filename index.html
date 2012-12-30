@@ -1,0 +1,65 @@
+---
+layout: default
+title: Blog
+navbar: blog
+---
+
+{% if paginator.page == 1%}
+  {% include brand.html %}
+{% endif %}
+
+{% for post in paginator.posts %}
+  <div>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+    <div class="post-content">
+    {{ post.content }}
+    </div>
+
+    <i>Posted by:</i> <b><span class="author">{{ post.author }}</span></b>
+    <b><span class="date">{{ post.date | date_to_long_string }}</span></b>
+    <br>
+
+    {% if forloop.last != true %}
+      <hr>
+    {% endif %}
+  </div>
+{% endfor %}
+
+
+<div id="post-pagination" class="pagination">
+  <ul>
+    {% if paginator.previous_page %}
+    <li>
+      {% if paginator.previous_page == 1 %}
+      <a href="/">«</a>
+      {% else %}
+      <a href="/page{{paginator.previous_page}}">Previous</a>
+      {% endif %}
+    </li>
+    {% else %}
+    <li class="disabled"><a href="#">«</a></li>
+    {% endif %}
+
+    {% if paginator.page == 1 %}
+    <li class="active"><a href="#">1</a></li>
+    {% else %}
+    <li><a href="/">1</a></li>
+    {% endif %}
+
+    {% for count in (2..paginator.total_pages) %}
+    {% if count == paginator.page %}
+    <li class="active"><a href="#">{{count}}</a></li>
+    {% else %}
+    <li><a href="/page{{count}}">{{count}}</a></li>
+    {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+    <li><a href="/page{{paginator.next_page}}">»</a></li>
+    {% else %}
+    <li class="disabled"><a href="#">»</a></li>
+    {% endif %}
+  </ul>
+
+</div>

@@ -1,8 +1,10 @@
 ---
 layout: default
+navbar: projects
 title: Missouri S&T ACM SIG-Game
-navbar: home
 ---
+
+## What We Do
 
 The SIG-Game Development team develops and maintains a framework to
 host MegaMinarAI and other programming competitions.
@@ -12,9 +14,9 @@ Developers have begun a redesign of the competition framework. Each
 component of the framework is open source and available on GitHub.
 
 
-### Our projects:
+## Our projects:
 
-#### Visualizer
+### Visualizer
 * [PyVis Source](https://github.com/siggame/PyVis)
 * [PyVis Documentation](http://siggame.github.com/PyVis/)
 * [WebVisualizer Source](https://github.com/siggame/WebVisualizer)

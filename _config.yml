@@ -1,8 +1,9 @@
-permalink: /:categories/:title/
+permalink: pretty
 
 safe: true
 auto: true
 lsi: false
 pygments: true
+paginate: 3
 
 production_url : http://siggame.github.com
