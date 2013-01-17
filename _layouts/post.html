@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+
+<div class="page-content">
+  {{ page.content }}
+</div>
+
+<i>Pageed by:</i> <b><span class="author">{{ page.author }}</span></b>
+<b><span class="date">{{ page.date | date_to_long_string }}</span></b>

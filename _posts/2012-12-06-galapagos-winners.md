@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 navbar: blog
 
 title: "Official Winners of MegaMinerAI 10: Galapagos"

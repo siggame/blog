@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 navbar: blog
 
 title: "MegaMinerAI Getting Started Screencast"
