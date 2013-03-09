@@ -1,10 +1,8 @@
 ---
 layout: default
-navbar: projects
 title: Missouri S&T ACM SIG-Game
+navbar: projects
 ---
-
-## What We Do
 
 The SIG-Game Development team develops and maintains a framework to
 host MegaMinarAI and other programming competitions.
