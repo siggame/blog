@@ -1,7 +1,6 @@
 permalink: pretty
 
 safe: true
-auto: true
 lsi: false
 pygments: true
 
