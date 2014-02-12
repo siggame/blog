@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+<div class="page-header">
+  <h1>{{ page.title }} <small>{{ page.date | date_to_string }}</small></h1>
+  <p class="text-muted">Posted by <b>{{ page.author }}</b></p>
+</div>
 
 <div class="page-content">
   {{ content }}
 </div>
-<hr>
-<i>Posted by:</i> <b><span class="author">{{ page.author }}</span></b>
-<b><span class="date">{{ page.date | date_to_long_string }}</span></b>
