@@ -1,0 +1,25 @@
+---
+layout: default
+title: Missouri S&T ACM SIG-Game Blog
+navbar: projects
+---
+
+<div class="page-header">
+  <h1>SIG-Game Blog</h1>
+</div>
+
+{% for post in paginator.posts %}
+  <h1>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <small>{{ post.date | date_to_string }}</small>
+  </h1>
+  <div>
+    {{ post.content }}
+    <i>Posted by:</i> <b>{{ post.author }}</b>
+  </div>
+  {% unless forloop.last %}
+    <hr>
+  {% endunless %}
+{% endfor %}
+
+{% include paginator.html %}
