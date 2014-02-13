@@ -41,9 +41,15 @@
           <div class="container">
             <div class="navbar-collapse collapse">
                 <ul class="nav pull-left navbar-nav">
-                  <li><a href="/">Blog</a></li>
-                  <li><a href="/about_us">About Us</a></li>
-                  <li><a href="/sponsors">Our Sponsors</a></li>
+                  <li class="{% if page.navbar == "blog" %}active{% endif %}">
+                    <a href="/">Blog</a>
+                  </li>
+                  <li class="{% if page.navbar == "about" %}active{% endif %}">
+                    <a href="/about_us">About Us</a>
+                  </li>
+                  <li class="{% if page.navbar == "sponsors" %}active{% endif %}">
+                    <a href="/sponsors">Our Sponsors</a>
+                  </li>
                 </ul>
                 <ul class="nav pull-right navbar-nav">
                   <li>
