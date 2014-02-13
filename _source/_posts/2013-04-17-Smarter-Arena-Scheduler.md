@@ -10,10 +10,12 @@ posts will be spread out over several days. First: A smarter arena
 scheduler.
 
 
-### A Smarter Arena Scheduler As it happens, I'm writing this blog
-entry in a big comment at the bottom of a file where I'm testing the
-algorithm for a smarter arena scheduler. To explain the algorithm,
-first I have to go back to the reason the arena exists.</p>
+### A Smarter Arena Scheduler
+
+As it happens, I'm writing this blog entry in a big comment at the
+bottom of a file where I'm testing the algorithm for a smarter arena
+scheduler. To explain the algorithm, first I have to go back to the
+reason the arena exists.
 
 The arena has an impossible task. It exists to determine a total
 ordering of AIs. How is this an impossible task? Rock, paper,
@@ -77,12 +79,15 @@ total win ratio, wobbling around with every win and loss. This dynamic
 instability is what allows the scheduler to react quickly to changes
 in AI behavior.
 
-###Displaying Win/Loss Ratio One consequence of all of this is that
-your win/loss ratio will be meaningless. Unless you're the very best
-(or the very worst), the system will forever be finding challenging
-games for you, and your win/loss ratio should hover around 50%.
+###Displaying Win/Loss Ratio
 
-###When Can We See It In Action?  Soon. As of this writing, the
-MegaMinerAI 11 extended arena is still running, and I hope to switch
-it over before it ends. After that, the chess arena continues for a
-few more weeks.
+One consequence of all of this is that your win/loss ratio will be
+meaningless. Unless you're the very best (or the very worst), the
+system will forever be finding challenging games for you, and your
+win/loss ratio should hover around 50%.
+
+###When Can We See It In Action?
+
+Soon. As of this writing, the MegaMinerAI 11 extended arena is still
+running, and I hope to switch it over before it ends. After that, the
+chess arena continues for a few more weeks.
