@@ -1,4 +1,4 @@
-siggame.github.com
+siggame.github.io
 ==================
 
 Our GitHub site
