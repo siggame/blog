@@ -18,20 +18,27 @@ navbar: sponsors
   From all of us, <strong>thank you</strong>!
 </p>
 
-<div class="row">
-  {% for sponsor in site.data.sponsors %}
-    <div class="col-xs-6 col-md-4">
+{% for sponsor in site.data.sponsors %}
+  {% assign count = forloop.index0 | modulo:3 %}
+  {% if count == 0 %}<div class="row">{% endif %}
+    <div class="col-xs-12 col-sm-4">
       <a href="#{{ sponsor.id }}" class="thumbnail">
-        <img data-src="holder.js/300%x200" alt="{{ sponsor.name }}" src="{{ site.static_url }}img/sponsor_logos/{{ sponsor.image }}">
+        <img data-src="holder.js/300%x200" alt="{{ sponsor.name }}"
+             src="{{ site.static_url }}img/sponsor_logos/{{ sponsor.image }}">
       </a>
     </div>
-  {% endfor %}
-</div>
+  {% if count == 2 or forloop.index == forloop.length %}</div>{% endif %}
+{% endfor %}
 
 <hr>
 
 {% for sponsor in site.data.sponsors %}
   <div id="{{ sponsor.id }}" class="row">
+    <div class="pull-right">
+      <a href="#" class="btn btn-info btn-sm">
+        <i class="fa fa-arrow-up fa-inverse"></i>
+      </a>
+    </div>
     <h2><a href="{{ sponsor.url }}">{{ sponsor.name }}</a></h2>
     {{ sponsor.description }}
   </div>
