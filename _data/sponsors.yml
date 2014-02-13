@@ -1,0 +1,185 @@
+- id: tradebot
+  name: Tradebot Systems
+  url: http://tradebotsystems.com
+  image: tradebot_logo.png
+  description: |
+
+    <p class="lead">Beating Wall Street from Kansas City</p>
+    <ul>
+      <li>
+        Tradebot Systems is a broker-dealer that trades
+        stock for its own account.  Some days, we account
+        for 5% to 10% of all stock trading in America.  We
+        trade our own money and do not have customers.
+      </li>
+      <li>
+        High Frequency Trading (HFT) is one of the most
+        technically demanding applications.  We are always
+        upgrading to the latest hardware.  Our stock
+        trading system is one of the best in the world.
+        When market data changes, our system can react and
+        make new orders in nanoseconds.  Our decisions are
+        based on analyzing huge data sets to determine when
+        we have a statistical edge.
+      </li>
+      <li>
+        Tradebot is privately owned by Dave Cummings.  We
+        started in 1999.  We have around 60 associates and
+        they all work out of our headquarters in Kansas
+        City.
+      </li>
+    </ul>
+
+- id: garmin
+  name: Garmin
+  url: http://www.garmin.com
+  image: garmin_logo_pms285_rgb.jpg
+  description: |
+
+    <p class="lead">Our Mission</p>
+    <p>
+      To be an enduring company by creating superior
+      products for automotive, aviation, marine, outdoor,
+      and sports that are an essential part of our
+      customers’ lives.
+    </p>
+
+    <p class="lead">Our Vision</p>
+    <p>
+      We will be the global leader in every market we
+      serve, and our products will be sought after for
+      their compelling design, superior quality, and best
+      value.
+    </p>
+
+    <p class="lead">Our Values</p>
+    <p>
+      The foundation of our culture is honesty, integrity,
+      and respect for associates, customers, and business
+      partners. Each associate is fully committed to
+      serving customers and fellow associates through
+      outstanding performance and accomplishing what we say
+      we will do.
+    </p>
+
+- id: lumate
+  name: Lumate
+  url: http://www.lumate.com
+  image: lumate.png
+  description: |
+
+    <p>
+      Lumate makes mobile advertising efficient and
+      affordable by targeting ads to users based on their
+      individual interests, preferences, and current
+      situation. This saves advertisers money, makes app
+      developers more money, and improves the ad experience
+      for users. Advertisers pay us to show their ads only
+      to people they want seeing them.
+    </p>
+
+- id: jetbrains
+  name: JetBrains
+  url: http://www.jetbrains.com
+  image: logo_jetbrains.gif
+  description: |
+
+    <p>
+      JetBrains is a technology-leading software
+      development company with an international presence
+      and rapidly growing. The company specializes in the
+      creation of intelligent development
+      tools. Headquartered in Prague, Czech Republic,
+      JetBrains maintains two research and development
+      laboratories, one in St. Petersburg, Russia and the
+      other in Boston, Massachusetts USA, plus three sales
+      and support offices in North America. JetBrains has
+      more than 75,000 customers and more than 300
+      employees. The company restricts its teams to
+      high-level professionals with rich experience
+      developing for worldclass companies in a diverse
+      array of software development projects.
+    </p>
+
+- id: github
+  name: GitHub
+  url: https://github.com
+  image: github.png
+  description: |
+
+    <p>
+      SIG-Game has recently started hosting its projects on
+      GitHub, and we love it. Though our game details are
+      kept secret in private repositories, our framework
+      code is open source and available on GitHub. Check
+      out our page <a
+      href="http://siggame.github.com">here</a>!
+    </p>
+
+- id: sentry
+  name: Sentry
+  url: https://getsentry.com
+  image: sentry-logo.png
+  description: |
+
+    <p class="lead">
+      Sentry is an event logging platform primarily focused
+      on capturing and aggregating exceptions.
+    </p>
+
+    <p>
+      It was originally conceived at <a
+      href="http://disqus.com/">DISQUS</a> in early 2010 to
+      solve exception logging within a Django application.
+      Since then it has grown to support many popular
+      languages and platforms, including Python, PHP, Java,
+      Ruby, Node.js, and even JavaScript.
+    </p>
+
+    <p class="lead">Open Source</p>
+
+    <p>
+      The hosted version of Sentry, that is, getsentry.com,
+      is run by using the open source version of Sentry
+      with several additional proprietary plugins. That
+      said, nearly every change that is needed for the
+      hosted version to work is actually made upstream
+      first, usually in the form of an extensible
+      interface.
+    </p>
+
+    <p>
+      Want to learn more about the code? We host everything
+      on <a href="https://github.com/getsentry">GitHub</a>.
+    </p>
+
+- id: microsoft
+  name: Microsoft
+  image: microsoft.png
+
+- id: bats
+  name: BATS
+  url: http://batstrading.com
+  image: BATS_logo.png
+  description: |
+
+    <p class="lead">About the BATS Exchanges</p>
+
+    <p>
+      BATS operates two stock exchanges in the U.S., the
+      BZX Exchange and the BYX Exchange (The BATS
+      Exchanges), which currently account for about 12-13%
+      of all U.S. equity trading on a daily basis. Driven
+      by its mission of "Making Markets Better," BATS has
+      become synonymous with great technology, aggressive
+      pricing and outstanding customer service while
+      catering to the needs of the broker-dealer and
+      trading community.
+    </p>
+
+    <p>
+      The BATS Exchanges are a division of BATS Global
+      Markets, a leading operator of stock and options
+      markets in the U.S. and Europe. For more information
+      about BATS Global Markets, please visit www.bats.com.
+    </p>
