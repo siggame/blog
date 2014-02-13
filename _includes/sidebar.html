@@ -1,0 +1,15 @@
+<div id="sidebar" class="col-md-3">
+  <div data-spy="affix" data-offset-top="0">
+    <h2>Posts</h2>
+    <ul class="nav nav-pills nav-stacked post-list">
+      {% for post in site.posts %}
+      {% if post.id == page.id %}
+      <li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% else %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+</div>
