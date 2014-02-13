@@ -1,0 +1,41 @@
+---
+layout: about
+title: Our Sponsors
+navbar: sponsors
+---
+<div class="page-header">
+  <h1>Our Sponsors</h1>
+</div>
+
+<p class="lead text-center">
+  We are always very thankful for our sponsors. MegaMinerAI would not
+  be possible without them.
+  Their generous donations help us host our competitions as well as
+  develop our games and framework.
+
+  <br>
+
+  From all of us, <strong>thank you</strong>!
+</p>
+
+<div class="row">
+  {% for sponsor in site.data.sponsors %}
+    <div class="col-xs-6 col-md-4">
+      <a href="#{{ sponsor.id }}" class="thumbnail">
+        <img data-src="holder.js/300%x200" alt="{{ sponsor.name }}" src="{{ site.static_url }}img/sponsor_logos/{{ sponsor.image }}">
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<hr>
+
+{% for sponsor in site.data.sponsors %}
+  <div id="{{ sponsor.id }}" class="row">
+    <h2><a href="{{ sponsor.url }}">{{ sponsor.name }}</a></h2>
+    {{ sponsor.description }}
+  </div>
+  {% unless forloop.last %}
+  <hr>
+  {% endunless %}
+{% endfor %}
