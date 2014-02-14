@@ -24,41 +24,7 @@
     </head>
     <body>
       <div id="wrap">
-        <div class="navbar navbar-inverse">
-          <div class="navbar-header">
-            <a href="/" title="SIG-Game" class="navbar-brand" rel="home">
-              <img src="{{ site.static_url }}img/brand.png" alt="SIG-Game" class="img-responsive" />
-            </a>
-            <!-- Helps the navbar collapse when the page shrinks -->
-            <button class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target=".navbar-collapse">
-              <span class="glyphicon glyphicon-bar"></span>
-              <span class="glyphicon glyphicon-bar"></span>
-              <span class="glyphicon glyphicon-bar"></span>
-            </button>
-          <!--mve this /div down with other...maybe-->
-          </div>
-          <div class="container">
-            <div class="navbar-collapse collapse">
-                <ul class="nav pull-left navbar-nav">
-                  <li class="{% if page.navbar == "blog" %}active{% endif %}">
-                    <a href="/">Blog</a>
-                  </li>
-                  <li class="{% if page.navbar == "about" %}active{% endif %}">
-                    <a href="/about_us">About Us</a>
-                  </li>
-                  <li class="{% if page.navbar == "sponsors" %}active{% endif %}">
-                    <a href="/sponsors">Our Sponsors</a>
-                  </li>
-                </ul>
-                <ul class="nav pull-right navbar-nav">
-                  <li>
-                    <a href="http://megaminerai.com" class="btn-info">MegaMinerAI <i class="fa fa-arrow-right"></i></a>
-                  </li>
-                </ul>
-            </div>
-          </div>
-        </div>
+        {% include navbar.html %}
 
         {{ content }}
 

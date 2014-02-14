@@ -1,0 +1,34 @@
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" title="SIG-Game" class="navbar-brand" rel="home">
+        <img src="{{ site.static_url }}img/brand.png" alt="SIG-Game" class="img-responsive" />
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav">
+        <li class="{% if page.navbar == "blog" %}active{% endif %}">
+          <a href="/">Blog</a>
+        </li>
+        <li class="{% if page.navbar == "about" %}active{% endif %}">
+          <a href="/about_us">About Us</a>
+        </li>
+        <li class="{% if page.navbar == "sponsors" %}active{% endif %}">
+          <a href="/sponsors">Our Sponsors</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="http://megaminerai.com" class="btn-info">MegaMinerAI <i class="fa fa-arrow-right"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
