@@ -34,10 +34,12 @@ navbar: sponsors
 
 {% for sponsor in site.data.sponsors %}
   <div id="{{ sponsor.id }}" class="row">
-    <div class="pull-right">
-      <a href="#" class="btn btn-info btn-sm">
-        <i class="fa fa-arrow-up fa-inverse"></i>
-      </a>
+    <div class="col-xs-12">
+      <div class="pull-right">
+        <a href="#" class="btn btn-info btn-sm">
+          <i class="fa fa-arrow-up fa-inverse"></i>
+        </a>
+      </div>
     </div>
     <h2><a href="{{ sponsor.url }}">{{ sponsor.name }}</a></h2>
     {{ sponsor.description }}
