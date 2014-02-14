@@ -40,9 +40,9 @@ navbar: sponsors
           <i class="fa fa-arrow-up fa-inverse"></i>
         </a>
       </div>
+      <h2><a href="{{ sponsor.url }}">{{ sponsor.name }}</a></h2>
+      {{ sponsor.description }}
     </div>
-    <h2><a href="{{ sponsor.url }}">{{ sponsor.name }}</a></h2>
-    {{ sponsor.description }}
   </div>
   {% unless forloop.last %}
   <hr>
