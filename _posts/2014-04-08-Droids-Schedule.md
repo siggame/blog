@@ -31,17 +31,16 @@ details. Most events will be taking place in
 * **12:00 PM** Meet in 199 Toomey Hall for Game Kickoff
 * **12:30 PM** Migrate upstairs to computer labs (follow the signs!)
 * **12:35 PM** Begin coding!
-* **6:00 PM** Dinner tournament (Winners are given back registration
-  fee)
+* **6:00 PM** Dinner QuickDraw Tournament (Winners are given back their registration fee)
 * **6:30 PM** Dinner!
 
 #### Sunday April 13th
 
+* **12:00 AM** Midnight QuickDraw Tournament (Winners are given back their registration fee)
 * **8:00 AM** Breakfast!
 * **12:00 PM** Code submission closed. End of competition
 * **12:15 PM** Lunch!
-* **1:00 PM** Migrate downstairs to 199 Toomey Hall to watch the Final
-  Tournament
+* **1:00 PM** Migrate downstairs to 199 Toomey Hall to watch the Final Tournament
 * **1:30 PM** Winners determined and prizes awarded
 
 
