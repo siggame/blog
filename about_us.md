@@ -15,7 +15,7 @@ navbar: about
 </div>
 
 A Brief History of SIG-Game  {#Brief-History}
----------------------------
+===========================
 
 The Missouri S&amp;T Association for Computing Machinery (ACM)
 Special Interest Group for AI Competition Game Development
@@ -39,7 +39,7 @@ procedural generation, testing, visualization, and more.
 <hr>
 
 What We Do  {#What-We-Do}
-----------
+==========
 
 In addition to developing novel games for MegaMinerAI, the
 SIG-Game Development team develops and maintains a framework to
@@ -55,8 +55,25 @@ component of the framework is open source and available on GitHub.
 
 <hr>
 
-Contact Us  {#Contact-Us}
+Projects  {#Projects}
+========
+
+Visualizer
 ----------
+* [PyVis Source](https://github.com/siggame/PyVis)
+* [PyVis Documentation](http://siggame.github.com/PyVis/)
+* [WebVisualizer Source](https://github.com/siggame/WebVisualizer)
+
+Web Site
+--------
+* [Webserver Source](https://github.com/siggame/webserver)
+* [Django-Competition Source](https://github.com/michaelwisely/django-competition)
+* [Django-Greta Source](https://github.com/michaelwisely/django-greta)
+
+<hr>
+
+Contact Us  {#Contact-Us}
+==========
 
 * E-mail SIG-Game at [siggame@mst.edu](mailto:siggame@gmail.com)
 * E-mail SIG-Game President, Russley Shaw, at [russley.shaw@mst.edu](mailto:russley.shaw@mst.edu)
