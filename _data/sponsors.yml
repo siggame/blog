@@ -156,6 +156,13 @@
 - id: microsoft
   name: Microsoft
   image: microsoft.png
+  description: |
+  
+    <p>
+      Founded in 1975, Microsoft (Nasdaq "MSFT") is the worldwide
+      leader in software, services, and solutions that help people 
+      and businesses realize their full potential.
+    </p>
 
 - id: bats
   name: BATS
