@@ -58,45 +58,30 @@ component of the framework is open source and available on GitHub.
 Our Projects  {#Projects}
 ============
 
-MegaMinerAI
------------
-{% for category in site.data.projects %}
-  {% for project in category[1] %}
-    {% if category[0] == "MegaMinerAI" %}
-* [{{ project.name }}]({{ project.url }})
-    {% endif %}
-  {% endfor %}
-{% endfor %}
+<div class="panel-group" id="accordion">
 
-Framework
----------
-{% for category in site.data.projects %}
-  {% for project in category[1] %}
-    {% if category[0] == "Framework" %}
-* [{{ project.name }}]({{ project.url }})
-    {% endif %}
+  {% for category in site.data.projects %}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#{{ category[0] | replace: ' ', '-' }}">
+            {{ category[0] }}
+          </a>
+        </h4>
+      </div>
+      <div id="{{ category[0] | replace: ' ', '-' }}" class="panel-collapse collapse">
+        <div class="panel-body">
+          <ul>
+            {% for project in category[1] %}
+              <li><a href="{{ project.url }}">{{ project.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
   {% endfor %}
-{% endfor %}
 
-Visualizer
-----------
-{% for category in site.data.projects %}
-  {% for project in category[1] %}
-    {% if category[0] == "Visualizer" %}
-* [{{ project.name }}]({{ project.url }})
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-
-Web Site
---------
-{% for category in site.data.projects %}
-  {% for project in category[1] %}
-    {% if category[0] == "Web" %}
-* [{{ project.name }}]({{ project.url }})
-    {% endif %}
-  {% endfor %}
-{% endfor %}
+</div>
 
 <hr>
 
