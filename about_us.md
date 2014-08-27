@@ -55,20 +55,48 @@ component of the framework is open source and available on GitHub.
 
 <hr>
 
-Projects  {#Projects}
-========
+Our Projects  {#Projects}
+============
+
+MegaMinerAI
+-----------
+{% for category in site.data.projects %}
+  {% for project in category[1] %}
+    {% if category[0] == "MegaMinerAI" %}
+* [{{ project.name }}]({{ project.url }})
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+Framework
+---------
+{% for category in site.data.projects %}
+  {% for project in category[1] %}
+    {% if category[0] == "Framework" %}
+* [{{ project.name }}]({{ project.url }})
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
 Visualizer
 ----------
-* [PyVis Source](https://github.com/siggame/PyVis)
-* [PyVis Documentation](http://siggame.github.com/PyVis/)
-* [WebVisualizer Source](https://github.com/siggame/WebVisualizer)
+{% for category in site.data.projects %}
+  {% for project in category[1] %}
+    {% if category[0] == "Visualizer" %}
+* [{{ project.name }}]({{ project.url }})
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
 Web Site
 --------
-* [Webserver Source](https://github.com/siggame/webserver)
-* [Django-Competition Source](https://github.com/michaelwisely/django-competition)
-* [Django-Greta Source](https://github.com/michaelwisely/django-greta)
+{% for category in site.data.projects %}
+  {% for project in category[1] %}
+    {% if category[0] == "Web" %}
+* [{{ project.name }}]({{ project.url }})
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
 <hr>
 

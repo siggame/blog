@@ -1,0 +1,31 @@
+MegaMinerAI:
+  - {name: MegaMinerAI-1, url: 'https://github.com/siggame/MegaMinerAI-1'}
+  - {name: MegaMinerAI-2, url: 'https://github.com/siggame/MegaMinerAI-2'}
+  - {name: MegaMinerAI-3, url: 'https://github.com/siggame/MegaMinerAI-3'}
+  - {name: MegaMinerAI-5, url: 'https://github.com/siggame/MegaMinerAI-5'}
+  - {name: MegaMinerAI-6, url: 'https://github.com/siggame/MegaMinerAI-6'}
+  - {name: MegaMinerAI-7, url: 'https://github.com/siggame/MegaMinerAI-7'}
+  - {name: MegaMinerAI-8, url: 'https://github.com/siggame/MegaMinerAI-8'}
+  - {name: MegaMinerAI-9, url: 'https://github.com/siggame/MegaMinerAI-9'}
+  - {name: MegaMinerAI-10, url: 'https://github.com/siggame/MegaMinerAI-10'}
+  - {name: MegaMinerAI-11, url: 'https://github.com/siggame/MegaMinerAI-11'}
+  - {name: MegaMinerAI-12, url: 'https://github.com/siggame/MegaMinerAI-12'}
+  - {name: MegaMinerAI-13, url: 'https://github.com/siggame/MegaMinerAI-13'}
+Framework:
+  - {name: MegaMinerAI-Framework, url: 'https://github.com/siggame/MegaMinerAI-Framework'}
+  - {name: client, url: 'https://github.com/siggame/client'}
+  - {name: codegen, url: 'https://github.com/siggame/codegen'}
+  - {name: egg, url: 'https://github.com/siggame/egg'}
+  - {name: python-client, url: 'https://github.com/siggame/python-client'}
+  - {name: server, url: 'https://github.com/siggame/server'}
+  - {name: server-templates, url: 'https://github.com/siggame/server-templates'}
+  - {name: zeronet, url: 'https://github.com/siggame/zeronet'}
+Visualizer:
+  - {name: PyVis, url: 'https://github.com/siggame/PyVis'}
+  - {name: cppVis, url: 'https://github.com/siggame/cppVis'}
+  - {name: VisAssets, url: 'https://github.com/siggame/VisAssets'}
+  - {name: WebVisualizer, url: 'https://github.com/siggame/WebVisualizer'}
+Web:
+  - {name: siggame-vote, url: 'https://github.com/siggame/siggame-vote'}
+  - {name: siggame.github.io, url: 'https://github.com/siggame/siggame.github.io'}
+  - {name: webserver, url: 'https://github.com/siggame/webserver'}
