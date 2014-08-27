@@ -11,7 +11,7 @@ MegaMinerAI:
   - {name: MegaMinerAI-11, url: 'https://github.com/siggame/MegaMinerAI-11'}
   - {name: MegaMinerAI-12, url: 'https://github.com/siggame/MegaMinerAI-12'}
   - {name: MegaMinerAI-13, url: 'https://github.com/siggame/MegaMinerAI-13'}
-Framework:
+Game Framework:
   - {name: MegaMinerAI-Framework, url: 'https://github.com/siggame/MegaMinerAI-Framework'}
   - {name: client, url: 'https://github.com/siggame/client'}
   - {name: codegen, url: 'https://github.com/siggame/codegen'}
