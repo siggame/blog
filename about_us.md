@@ -62,16 +62,15 @@ Our Projects  {#Projects}
 
   {% for category in site.data.projects %}
     <div class="panel panel-default">
-      <div class="panel-heading">
+      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#{{ category[0] | replace: ' ', '-' }}">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#{{ category[0] | replace: ' ', '-' }}">
-            {{ category[0] }}
-          </a>
+          {{ category[0] }}
+          <span class="glyphicon glyphicon-chevron-down pull-right" style="color:#008CBA"></span>  
         </h4>
       </div>
       <div id="{{ category[0] | replace: ' ', '-' }}" class="panel-collapse collapse">
         <div class="panel-body">
-          <ul>
+          <ul class="list-unstyled">
             {% for project in category[1] %}
               <li><a href="{{ project.url }}">{{ project.name }}</a></li>
             {% endfor %}
