@@ -88,5 +88,7 @@ Our Projects  {#Projects}
 Contact Us  {#Contact-Us}
 ==========
 
+{:refdef: .list-unstyled }
 * E-mail SIG-Game at [siggame@mst.edu](mailto:siggame@gmail.com)
 * E-mail SIG-Game President, Russley Shaw, at [russley.shaw@mst.edu](mailto:russley.shaw@mst.edu)
+{: refdef .list-unstyled}
