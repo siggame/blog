@@ -11,6 +11,10 @@ SIG-Game develop and host Missouri S&T's largest artificial
 intelligence programming competition: MegaMinerAI!</p>
 </div>
 
+{:refdef: .text-center .text-success }
+**See you at our informational meeting on <br> Monday, September 8th!**
+{: refdef .text-center .text-success }
+
 Why would I do that?
 --------------------
 
@@ -58,4 +62,4 @@ Also, feel free to [contact us](/about_us/#Contact-Us) with any questions you mi
 
 {:refdef: .lead .text-center }
 See you there!
-{: refdef}
+{: refdef .lead .text-center }
