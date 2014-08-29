@@ -12,7 +12,7 @@ intelligence programming competition: MegaMinerAI!</p>
 </div>
 
 {:refdef: .text-center .text-success }
-**See you at our informational meeting on <br> Monday, September 8th!**
+**See you at our informational meeting on <br> Monday, September 8th at 7:00 pm!**
 {: refdef .text-center .text-success }
 
 Why would I do that?
@@ -57,7 +57,7 @@ Sign me up!
 </div>
 </div>
 
-If you're interested in developing this semester, come to our informational meeting **Monday September 8th, 2014** in CS room 207.
+If you're interested in developing this semester, come to our informational meeting **Monday September 8th, 2014** at **7:00 pm** in **CS room 207**.
 Also, feel free to [contact us](/about_us/#Contact-Us) with any questions you might have
 
 {:refdef: .lead .text-center }
