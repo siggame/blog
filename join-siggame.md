@@ -11,17 +11,25 @@ SIG-Game develop and host Missouri S&T's largest artificial
 intelligence programming competition: MegaMinerAI!</p>
 </div>
 
-{:refdef: .text-center .text-success }
-**See you at our informational meeting on <br> Monday, September 8th at 7:00 pm!**
-{: refdef .text-center .text-success }
+### See you at our informational meeting on <br> **Monday, September 8th at 7:00 pm!**
+{: .text-center .text-success}
 
-Why would I do that?
+
+<a class="btn btn-info btn-lg" target="_blank" href="https://docs.google.com/document/d/1lr2w4sQL4tjIXqO9oNGeutVVajtmMXq0sV1SEOhLass/pub">Check out the flier!</a>
+{: .text-center}
+
+---
+
+Why would I join?
 --------------------
 
 SIG-Game develops a number of open source projects that help us run MegaMinerAI and S&T's Artificial Intelligence Tournament Series.
 These tools are developed solely by Missouri S&T students and committed SIG-Game Alumni.
 By developing for SIG-Game, you'll have an opportunity to learn the ins and outs of our projects and contribute to them!
+You'll have a chance to learn new programming languages, software frameworks, development tools, and more.
 Check out our [projects](/about_us/#Projects) to get an idea of what we do.
+
+---
 
 Seems overwhelming?
 -------------------
@@ -33,6 +41,8 @@ Even if you have never programmed, **you can still help**!
 We're always looking for artists to design game art, fliers, t-shirts, and more.
 A lot of works goes into making MegaMinerAI happen.
 By getting involved early, you have the chance to get to know the other devs and prepare to develop for future MegaMinerAIs!
+
+---
 
 But I want to compete in MegaMinerAI this semester
 --------------------------------------------------
@@ -48,6 +58,8 @@ Join the web team.
 Or the arena team.
 I'm not your mom.
 
+---
+
 Sign me up!
 -----------
 
@@ -57,9 +69,14 @@ Sign me up!
 </div>
 </div>
 
-If you're interested in developing this semester, come to our informational meeting **Monday September 8th, 2014** at **7:00 pm** in **CS room 207**.
+If you're interested in developing this semester, or any time for that matter, come to our informational meeting **Monday September 8th, 2014** at **7:00 pm** in **CS room 207**.
 Also, feel free to [contact us](/about_us/#Contact-Us) with any questions you might have
 
-{:refdef: .lead .text-center }
+<div class="lead text-center well text-bold">
+<p><strong>Monday, September 8th, 2014</strong></p>
+<p><strong>7:00 PM</strong></p>
+<p><strong>Room 207 Computer Science building</strong></p>
+</div>
+
 See you there!
-{: refdef .lead .text-center }
+{: .lead .text-center }
