@@ -18,6 +18,10 @@
           <a href="/">Blog</a>
         </li>
 
+        <li class="{% if page.navbar == "join" %}active{% endif %}">
+          <a href="/join-siggame">Join Us</a>
+        </li>
+
         <li class="{% if page.navbar == "about" %}active{% endif %} dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             About Us <span class="caret"></span>
