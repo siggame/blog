@@ -6,8 +6,8 @@ paginate_path: "blog/page/:num"
 
 safe: true
 lsi: false
-pygments: true
+highlighter: true
 markdown: kramdown
 
 static_url: /static/
-production_url : http://siggame.github.com
+production_url : "http://blog.megaminerai.com"
