@@ -1,13 +1,11 @@
 <div id="sidebar" class="col-md-3">
-  <div data-spy="affix" data-offset-top="0">
-    <h2>Posts</h2>
+  <div data-spy="affix" data-offset-top="45" style="top:0px">
+    <h2>Recent Posts</h2>
     <ul class="nav nav-pills nav-stacked post-list">
-      {% for post in site.posts %}
-      {% if post.id == page.id %}
-      <li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% else %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
+      {% for post in site.posts limit:10 %}
+      <li class="{% if post.id == page.id %}active{% endif %}">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
       {% endfor %}
     </ul>
   </div>
