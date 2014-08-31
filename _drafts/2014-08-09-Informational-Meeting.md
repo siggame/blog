@@ -63,7 +63,7 @@ During the course of the semester, some teams will "know too much" about the gam
 Other teams (web and arena) don't actually have to know anything about the game to work on code.
 Those developers are still welcome to compete for prizes.
 Of course, there are some restrictions.
-Those with superuser access to the live web application or area can't compete for prizes.
+Those with superuser access to the live web application or arena can't compete for prizes.
 
 ### New Developers
 
