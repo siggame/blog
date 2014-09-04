@@ -43,6 +43,26 @@ procedural generation, testing, visualization, and more.
 What We Do  {#What-We-Do}
 ==========
 
+MegaMinerAI
+-----------
+
+MegaMinerAI is a 24-hour artificial intelligence (AI) programming
+competition hosted each semester by S&T ACM SIG-Game. Competitors must
+use their 24-hours to develop a program to play a novel game developed
+by SIG-Game's development team. The details of the game are kept
+secret until the day of competition, so competitors must demonstrate
+their wits and coding skills to develop the best AI!
+
+Programs are pitted against one another in SIG-Game's Arena, where
+thousands of games are played in the cloud. Game results are available
+to users, so that they may further debug their code and refine their
+strategy. After the competition ends, a triple-elimination is run to
+determine the winners. The top three student teams are awarded prize
+money and crowned as the victors of MegaMinerAI.
+
+Open Source
+-----------
+
 In addition to developing novel games for MegaMinerAI, the
 SIG-Game Development team develops and maintains a framework to
 host MegaMinerAI and other programming competitions. Though game
@@ -67,7 +87,7 @@ Our Projects  {#Projects}
       <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#{{ category[0] | replace: ' ', '-' }}">
         <h4 class="panel-title">
           {{ category[0] }}
-          <span class="glyphicon glyphicon-chevron-down pull-right" style="color:#008CBA"></span>  
+          <span class="glyphicon glyphicon-chevron-down pull-right" style="color:#008CBA"></span>
         </h4>
       </div>
       <div id="{{ category[0] | replace: ' ', '-' }}" class="panel-collapse collapse">
@@ -93,3 +113,6 @@ Contact Us  {#Contact-Us}
 * E-mail SIG-Game at [siggame@mst.edu](mailto:siggame@gmail.com)
 * E-mail SIG-Game President, Russley Shaw, at [russley.shaw@mst.edu](mailto:russley.shaw@mst.edu)
 {: refdef .list-unstyled}
+
+<!--  LocalWords:  MegaMinerAI
+ -->
