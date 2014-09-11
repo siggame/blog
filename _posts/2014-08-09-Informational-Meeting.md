@@ -78,7 +78,6 @@ Make sure that you are granted access to the proper repositories on GitHub and t
 
 ### Developer Meetings
 
-<!-- TODO make sure that it's still CS 207 -->
 We have weekly developer-only meetings from **12:00 - 1:00 PM on Mondays in CS 207**.
 If you decide to get involved, you should do your best to attend these meetings.
 
@@ -94,7 +93,7 @@ Learning to develop for SIG-Game takes some time, but you'll gain valuable exper
 **TL;DR** - SIG-Game's purpose is to host a 24-hour programming competition called MegaMinerAI.
 There are several teams that work on code to make that happen.
 There are many different opportunities to learn and contribute.
-Most importantly, we have meetings from 12:00 - 1:00 PM on Mondays in CS 207. <!-- TODO make sure that it's still CS 207 -->
+Most importantly, we have meetings from 12:00 - 1:00 PM on Mondays in CS 207.
 
 ### Mark your calendars!
 
