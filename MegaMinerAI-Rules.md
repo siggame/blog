@@ -30,7 +30,8 @@ The following terms are used in this document:
 
 -   **Student Team**: A team comprised entirely of currently enrolled
     students. Each member may be either a full-time or a part-time
-    student.
+    student. Students may be enrolled at any accredited educational
+    institution. MegaMinerAI is not limited to S&T students.
 
 -   **Non-student Team**: A team containing at least one member who is
     **not** enrolled as a full-time student or a part-time student.
@@ -55,7 +56,9 @@ unable to use S&T’s network to obtain Internet access.
 Schedule and Phases of Competition
 ----------------------------------
 
-All times are local (Central Time)
+All times are local (Central Time). Dinner on Saturday and breakfast
+on Sunday are provided to competing teams that have paid their
+registration fees.
 
 -   Saturday
 
@@ -65,9 +68,15 @@ All times are local (Central Time)
 
     -   ~6:00 PM - **Quick Draw Tournament**
 
+    -   ~6:00 PM - Dinner
+
 -   Sunday
 
+    -   ~8:00 AM - Breakfast
+
     -   12:00 PM - **Competition ends**
+
+    -   ~12:15 PM - (Possibly) Lunch
 
     -   ~12:30 PM - **Closing Ceremony**
 
