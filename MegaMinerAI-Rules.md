@@ -17,7 +17,7 @@ The following terms are used in this document:
     Association of Computing Machinery. It is a Recognized Student
     Organization (RSO) at Missouri S&T.
 
--   **SIG-Game:** Missouri S&T ACM SIG-Game is a special interest group
+-   **SIG-Game**: Missouri S&T ACM SIG-Game is a special interest group
     of Missouri S&T’s local chapter of ACM. Its purpose is to host
     MegaMinerAI once per semester. This includes logistics involved in
     hosting the competition, as well as development of software
