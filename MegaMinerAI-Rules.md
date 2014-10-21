@@ -58,7 +58,8 @@ Schedule and Phases of Competition
 
 All times are local (Central Time). Dinner on Saturday and breakfast
 on Sunday are provided to competing teams that have paid their
-registration fees.
+registration fees. If lunch is provided on Sunday, that is also
+provided to those teams.
 
 -   Saturday
 
