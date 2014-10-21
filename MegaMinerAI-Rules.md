@@ -281,6 +281,13 @@ questions, please ask them for help. All SIG-Game Developers can be
 easily identified, as they will be wearing the T-Shirt for the current
 MegaMinerAI.
 
+Teams may use online resources and open source libraries to assist
+their AI. However, teams are not allowed to reuse personal code or
+libraries specifically designed for AI / MegaMinerAI development. All
+development must be done by members of that team during competition
+hours
+
+
 Cheating and Dishonesty
 -----------------------
 
@@ -296,6 +303,33 @@ SIG-Game does not consider this sabotage. If, however, an AI was
 designed to exploit security vulnerabilities in SIG-Game’s
 infrastructure or an opponent’s code, SIG-Game would consider this
 actionable sabotage.
+
+### Examples of acceptable and unacceptable actions:
+
+Please note that these are examples. If you have questions about other
+actions, please contact SIG-Game.
+
+#### Acceptable:
+
+-   Analyzing other teams strategy from watching games
+
+-   Asking another team about their strategy
+
+    - If they volunteer that information, that's their decision.
+
+#### Unacceptable:
+
+-   Exploiting security vulnerabilities
+
+    -   This includes (but is not limited to) network and memory
+        exploits
+
+-   Excessive use of computing resources
+
+    -   Abusively consuming CPU, memory, disk space
+
+-   Stealing code from other teams
+
 
 Other Rules and Policies
 ------------------------
