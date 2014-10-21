@@ -291,7 +291,7 @@ Changes to this document
 ------------------------
 
 -   Changes to this documented will be recorded and made available to
-    competitors.
+    competitors through [GitHub](https://github.com/siggame/siggame.github.io/commits/master/MegaMinerAI-Rules.md).
 
 -   Though the history of this document is available, it is the
     responsibility of competitors and other participants to check for
