@@ -36,6 +36,11 @@ The following terms are used in this document:
 -   **Non-student Team**: A team containing at least one member who is
     **not** enrolled as a full-time student or a part-time student.
 
+-   **SIG-Game Developer Team**: A team containing at least one member
+    who is a SIG-Game Developer. These teams are not eligible for **any**
+    prizes. However, Developers work hard to test MegaMinerAI, and often
+    want to test their own AIs in the arena.
+
 Venue
 -----
 
