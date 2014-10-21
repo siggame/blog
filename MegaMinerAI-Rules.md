@@ -177,8 +177,12 @@ Tournament
         tournament
 
 -   Please note that the ShellAI provided to each competitor ***will
-    successfully compile and run as described***. Teams should ask
-    SIG-Game Developers for help if necessary.
+    successfully compile and run as described***. No changes are necessary
+    to compile ShellAI. In most cases, the ``Makefile`` and ``run.sh`` do
+    not require modification.
+
+-   Teams should ask SIG-Game Developers for help if necessary.
+
 
 ### Quick Draw Tournaments
 
