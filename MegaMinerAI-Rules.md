@@ -193,8 +193,11 @@ Tournament
 -   Prize: The first-place team will receive their registration fee
     back.
 
+    -   Eligibility is detailed in the "Eligibility" section
+
     -   If a team wins more than one Quick Draw Tournament, they will
-        only receive their entry fee for the first victory.
+        only receive their entry fee for the first victory. In this case,
+        the next highest ranked team is awarded the prize.
 
 -   Tournament Configuration
 
@@ -210,6 +213,8 @@ Final Tournament
 -   Purpose: The final tournament determines the top three student teams
 
 -   Prize - Outlined in "Prizes" section.
+
+    -   Eligibility is detailed in the "Eligibility" section
 
 -   Tournament Configuration
 
