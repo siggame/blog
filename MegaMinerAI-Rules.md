@@ -235,8 +235,6 @@ Final Tournament
 
     -   Triple Elimination
 
-    -   Prizes awarded to first, second, and third place winners
-
     -   Brackets seeded according to performance in the Arena
 
 Eligibility
