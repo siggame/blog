@@ -17,7 +17,7 @@ The following terms are used in this document:
     Association of Computing Machinery. It is a Recognized Student
     Organization (RSO) at Missouri S&T.
 
--   **SIG-Game:** Missouri S&T ACM SIG-Game is a special interest group
+-   **SIG-Game**: Missouri S&T ACM SIG-Game is a special interest group
     of Missouri S&T’s local chapter of ACM. Its purpose is to host
     MegaMinerAI once per semester. This includes logistics involved in
     hosting the competition, as well as development of software
@@ -30,10 +30,16 @@ The following terms are used in this document:
 
 -   **Student Team**: A team comprised entirely of currently enrolled
     students. Each member may be either a full-time or a part-time
-    student.
+    student. Students may be enrolled at any accredited educational
+    institution. MegaMinerAI is not limited to S&T students.
 
 -   **Non-student Team**: A team containing at least one member who is
     **not** enrolled as a full-time student or a part-time student.
+
+-   **SIG-Game Developer Team**: A team containing at least one member
+    who is a SIG-Game Developer. These teams are not eligible for **any**
+    prizes. However, Developers work hard to test MegaMinerAI, and often
+    want to test their own AIs in the arena.
 
 Venue
 -----
@@ -55,7 +61,10 @@ unable to use S&T’s network to obtain Internet access.
 Schedule and Phases of Competition
 ----------------------------------
 
-All times are local (Central Time)
+All times are local (Central Time). Dinner on Saturday and breakfast
+on Sunday are provided to competing teams that have paid their
+registration fees. If lunch is provided on Sunday, that is also
+provided to those teams.
 
 -   Saturday
 
@@ -65,9 +74,15 @@ All times are local (Central Time)
 
     -   ~6:00 PM - **Quick Draw Tournament**
 
+    -   ~6:00 PM - Dinner
+
 -   Sunday
 
+    -   ~8:00 AM - Breakfast
+
     -   12:00 PM - **Competition ends**
+
+    -   ~12:15 PM - (Possibly) Lunch
 
     -   ~12:30 PM - **Closing Ceremony**
 
@@ -168,8 +183,12 @@ Tournament
         tournament
 
 -   Please note that the ShellAI provided to each competitor ***will
-    successfully compile and run as described***. Teams should ask
-    SIG-Game Developers for help if necessary.
+    successfully compile and run as described***. No changes are necessary
+    to compile ShellAI. In most cases, the ``Makefile`` and ``run.sh`` do
+    not require modification to work with other AIs as well.
+
+-   Teams should ask SIG-Game Developers for help if necessary.
+
 
 ### Quick Draw Tournaments
 
@@ -180,8 +199,11 @@ Tournament
 -   Prize: The first-place team will receive their registration fee
     back.
 
+    -   Eligibility is detailed in the "Eligibility" section
+
     -   If a team wins more than one Quick Draw Tournament, they will
-        only receive their entry fee for the first victory.
+        only receive their entry fee for the first victory. In this case,
+        the next highest ranked team is awarded the prize.
 
 -   Tournament Configuration
 
@@ -197,6 +219,8 @@ Final Tournament
 -   Purpose: The final tournament determines the top three student teams
 
 -   Prize - Outlined in "Prizes" section.
+
+    -   Eligibility is detailed in the "Eligibility" section
 
 -   Tournament Configuration
 
@@ -216,8 +240,6 @@ Final Tournament
 -   Tournament Configuration
 
     -   Triple Elimination
-
-    -   Prizes awarded to first, second, and third place winners
 
     -   Brackets seeded according to performance in the Arena
 
@@ -265,6 +287,13 @@ questions, please ask them for help. All SIG-Game Developers can be
 easily identified, as they will be wearing the T-Shirt for the current
 MegaMinerAI.
 
+Teams may use online resources and open source libraries to assist
+their AI. However, teams are not allowed to reuse personal code or
+libraries specifically designed for AI / MegaMinerAI development. All
+development must be done by members of that team during competition
+hours
+
+
 Cheating and Dishonesty
 -----------------------
 
@@ -280,6 +309,33 @@ SIG-Game does not consider this sabotage. If, however, an AI was
 designed to exploit security vulnerabilities in SIG-Game’s
 infrastructure or an opponent’s code, SIG-Game would consider this
 actionable sabotage.
+
+### Examples of acceptable and unacceptable actions:
+
+Please note that these are examples. If you have questions about other
+actions, please contact SIG-Game.
+
+#### Acceptable:
+
+-   Analyzing other teams strategy from watching games
+
+-   Asking another team about their strategy
+
+    - If they volunteer that information, that's their decision.
+
+#### Unacceptable:
+
+-   Exploiting security vulnerabilities
+
+    -   This includes (but is not limited to) network and memory
+        exploits
+
+-   Excessive use of computing resources
+
+    -   Abusively consuming CPU, memory, disk space
+
+-   Stealing code from other teams
+
 
 Other Rules and Policies
 ------------------------
