@@ -100,6 +100,9 @@ Teams
   members.
 - Teams must be formed on SIG-Game’s website prior to the start of the
   competition. All code submissions must be made through this site.
+- Competitors without teams (freeagents) will have an opportunity to form 
+  teams at the beginning of MegaMinerAI. SIG-Game will attempt to help 
+  freeagents find teams to join.
 - Prize eligibility varies based on the status of team members. Please
   see the "Eligibility" section below.
 
