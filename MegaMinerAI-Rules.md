@@ -76,14 +76,14 @@ provided to those teams.
 Registration Fees
 -----------------
 
-- A registration fee of \$24 per team will be collected at the end of
+- A registration fee of $24 per team will be collected at the end of
   the Opening Ceremony.
-  - The registration fee is \$24 per team regardless of team size.
-- A team will receive a discount of \$4 for each team member who is a
+  - The registration fee is $24 per team regardless of team size.
+- A team will receive a discount of $4 for each team member who is a
   dues-paying member of Missouri S&T’s ACM chapter.
   - For example, a team with exactly two S&T ACM members will
-    receive a \$8 discount. Thus, that team’s registration fee
-    will be \$16.
+    receive a $8 discount. Thus, that team’s registration fee
+    will be $16.
   - Discount eligibility will be determined according to S&T ACM’s
     official roster.
   - You *must* be a member of ACM at the time of competition to be
