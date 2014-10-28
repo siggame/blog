@@ -111,11 +111,10 @@ Prizes
 - Prizes are awarded to *teams* not to individual members of a team.
   - It is the responsibility of a prize-winning team to decide how
     prizes should be divided among its members.
-- Prizes from the Final Tournament are awarded in the form of
-  Amazon.com Gift Cards as follows:
-  - First place: \$180
-  - Second place: \$120
-  - Third place: \$60
+- Prizes from the Final Tournament are awarded as cash as follows:
+  - First place: $500
+  - Second place: $220
+  - Third place: $120
 
 Tournament
 ----------
