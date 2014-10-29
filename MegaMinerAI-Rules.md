@@ -79,6 +79,8 @@ Registration Fees
 - A registration fee of $24 per team will be collected at the end of
   the Opening Ceremony.
   - The registration fee is $24 per team regardless of team size.
+  - Teams must pay their registration fees in cash. SIG-Game doesn't 
+    presently have means to accept credit card payment.
 - A team will receive a discount of $4 for each team member who is a
   dues-paying member of Missouri S&T’s ACM chapter.
   - For example, a team with exactly two S&T ACM members will
