@@ -36,7 +36,7 @@ Meet our Sponsors!
 
 Garmin and Tradebot will be at MegaMinerAI!
 
-Join our sponsors for a meet and greet at **10:00 AM** (before
+Join our sponsors for a meet and greet at **10:30 AM** (before
 MegaMinerAI starts). Find out more about these awesome companies and
 learn about possible job opportunities! Bring your resume if you have
 one!
@@ -57,7 +57,7 @@ details. Most events will be taking place in
 
 #### Saturday November 8th
 
-* **10:00 AM** Meet with sponsor companies *(optional)*
+* **10:30 AM** Meet with sponsor companies *(optional)*
   * Interested in talking to our sponsors? Garmin and Tradebot would love to talk to you
   * Bring your resume if you'd like
 * **12:00 PM** Meet in room 199 Toomey Hall for Opening Ceremony
