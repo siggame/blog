@@ -43,7 +43,7 @@ one!
 
 This event is optional, but it's a cool opportunity to get to
 introduce yourselves to some really stellar employers who have been
-incredibly supportive of SIG-Game and S&T ACM.
+incredibly supportive of SIG-Game and Missouri S&T ACM.
 
 
 The Schedule
