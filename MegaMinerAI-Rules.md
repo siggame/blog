@@ -224,11 +224,11 @@ questions, please ask them for help. All SIG-Game Developers can be
 easily identified, as they will be wearing the T-Shirt for the current
 MegaMinerAI.
 
-Teams may use online resources and open source libraries to assist
-their AI. However, teams are not allowed to reuse personal code or
-libraries specifically designed for AI / MegaMinerAI development. All
-development must be done by members of that team during competition
-hours
+Teams may use online resources and publicly available, open source
+libraries to assist their AI. However, teams are not allowed to reuse
+personal code or libraries specifically designed for AI / MegaMinerAI
+development. All development must be done by members of that team
+during competition hours
 
 
 Cheating and Dishonesty
