@@ -79,7 +79,7 @@ Registration Fees
 - A registration fee of $24 per team will be collected at the end of
   the Opening Ceremony.
   - The registration fee is $24 per team regardless of team size.
-  - Teams must pay their registration fees in cash. SIG-Game doesn't 
+  - Teams must pay their registration fees in cash. SIG-Game doesn't
     presently have means to accept credit card payment.
 - A team will receive a discount of $4 for each team member who is a
   dues-paying member of Missouri S&T’s ACM chapter.
@@ -102,8 +102,8 @@ Teams
   members.
 - Teams must be formed on SIG-Game’s website prior to the start of the
   competition. All code submissions must be made through this site.
-- Competitors without teams (freeagents) will have an opportunity to form 
-  teams at the beginning of MegaMinerAI. SIG-Game will attempt to help 
+- Competitors without teams (freeagents) will have an opportunity to form
+  teams at the beginning of MegaMinerAI. SIG-Game will attempt to help
   freeagents find teams to join.
 - Prize eligibility varies based on the status of team members. Please
   see the "Eligibility" section below.
