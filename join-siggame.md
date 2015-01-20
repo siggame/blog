@@ -11,7 +11,7 @@ SIG-Game develop and host Missouri S&T's largest artificial
 intelligence programming competition: MegaMinerAI!</p>
 </div>
 
-### See you at our informational meeting on <br> **Monday, September 8th at 7:00 pm!**
+### See you at our informational meeting on <br> **Monday, January 26th at 4:00 pm!**
 {: .text-center .text-success}
 
 
@@ -69,12 +69,12 @@ Sign me up!
 </div>
 </div>
 
-If you're interested in developing this semester, or any time for that matter, come to our informational meeting **Monday September 8th, 2014** at **7:00 pm** in **CS room 207**.
+If you're interested in developing this semester, or any time for that matter, come to our informational meeting **Monday January 26th, 2015** at **4:00 pm** in **CS room 207**.
 Also, feel free to [contact us](/about_us/#Contact-Us) with any questions you might have
 
 <div class="lead text-center well text-bold">
-<p><strong>Monday, September 8th, 2014</strong></p>
-<p><strong>7:00 PM</strong></p>
+<p><strong>Monday, January 26th, 2015</strong></p>
+<p><strong>4:00 PM</strong></p>
 <p><strong>Room 207 Computer Science building</strong></p>
 </div>
 
