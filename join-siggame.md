@@ -15,7 +15,7 @@ intelligence programming competition: MegaMinerAI!</p>
 {: .text-center .text-success}
 
 
-<a class="btn btn-info btn-lg" target="_blank" href="https://docs.google.com/document/d/1lr2w4sQL4tjIXqO9oNGeutVVajtmMXq0sV1SEOhLass/pub">Check out the flier!</a>
+<a class="btn btn-info btn-lg" target="_blank" href="https://docs.google.com/document/d/1DqRdpFKtUjtW9X994JAzzZX-UYFhGBZiFjdJ0ODnCPk/pub">Check out the flier!</a>
 {: .text-center}
 
 ---
