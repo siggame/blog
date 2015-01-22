@@ -7,9 +7,10 @@ author: "Goldman"
 Thanks to Matt Nuckolls, Aluminati member and Arena architect,
 MegaMinerAI 14: Plants has the most thorough final results of a any
 competition ever. In total he ran the arena for 50,000 games, and from
-those results I extracted this CSV of pairwise game results, and
-created this pretty graph of how likely it is for each team to beat
-each opponent:
+those results I extracted
+[this CSV]({{site.static_url}}pairwise_rate.csv) of pairwise game
+results, and created this pretty graph of how likely it is for each
+team to beat each opponent:
 
 ![Arena Heat Map]({{site.static_url}}img/content/win_rates.png)
 
