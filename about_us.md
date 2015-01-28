@@ -111,7 +111,7 @@ Contact Us  {#Contact-Us}
 
 {:refdef: .list-unstyled }
 * E-mail SIG-Game at [siggame@mst.edu](mailto:siggame@gmail.com)
-* E-mail SIG-Game President, Russley Shaw, at [russley.shaw@mst.edu](mailto:russley.shaw@mst.edu)
+* E-mail SIG-Game President, Trey Nickelsen, at [james.nickelsen@mst.edu](mailto:james.nickelsen@mst.edu)
 {: refdef .list-unstyled}
 
 <!--  LocalWords:  MegaMinerAI
