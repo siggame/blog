@@ -6,7 +6,7 @@ paginate_path: "blog/page/:num"
 
 safe: true
 lsi: false
-highlighter: true
+highlighter: pygments
 markdown: kramdown
 
 static_url: /static/
