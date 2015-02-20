@@ -27,7 +27,7 @@ SIG-Game develops a number of open source projects that help us run MegaMinerAI 
 These tools are developed solely by Missouri S&T students and committed SIG-Game Alumni.
 By developing for SIG-Game, you'll have an opportunity to learn the ins and outs of our projects and contribute to them!
 You'll have a chance to learn new programming languages, software frameworks, development tools, and more.
-Check out our [projects](/about_us/#Projects) to get an idea of what we do.
+Check out our [projects](/about/#Projects) to get an idea of what we do.
 
 ---
 
@@ -70,7 +70,7 @@ Sign me up!
 </div>
 
 If you're interested in developing this semester, or any time for that matter, come to our informational meeting **Monday January 26th, 2015** at **4:00 pm** in **CS room 207**.
-Also, feel free to [contact us](/about_us/#Contact-Us) with any questions you might have
+Also, feel free to [contact us](/about/#Contact-Us) with any questions you might have
 
 <div class="lead text-center well text-bold">
 <p><strong>Monday, January 26th, 2015</strong></p>
