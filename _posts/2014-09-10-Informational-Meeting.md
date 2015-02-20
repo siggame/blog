@@ -83,7 +83,7 @@ If you decide to get involved, you should do your best to attend these meetings.
 
 ### Need more information?
 
-Checkout out the [About Us](http://blog.megaminerai.com/about_us/) and [Join Us](http://blog.megaminerai.com/join-siggame/) pages on our blog site, if you haven't already.
+Checkout out the [About Us](http://blog.megaminerai.com/about/) and [Join Us](http://blog.megaminerai.com/join-siggame/) pages on our blog site, if you haven't already.
 Feel free to peruse our code bases, but don't be scared by them!
 It takes a little time to get familiar with how our stuff works.
 Learning to develop for SIG-Game takes some time, but you'll gain valuable experience that looks excellent on a resume.
