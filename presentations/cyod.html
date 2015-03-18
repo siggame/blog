@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/css/reveal.css"/>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/css/theme/serif.css" id="theme">
+  <style type="text/css">
+    .reveal section img { border:none; box-shadow:none;}
+  </style>
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+  <script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/css/print/pdf.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+  </script>
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section class="slide level2">
+
+<figure>
+<img src="https://www.djangoproject.com/s/img/logos/django-logo-negative.svg" />
+</figure>
+<p>The web framework for perfectionists with deadlines</p>
+</section>
+<section><section id="shameless-promoting" class="titleslide slide level1"><h1>Shameless Promoting</h1></section><section id="acm-sig-game" class="slide level2">
+<h1>ACM SIG-Game</h1>
+<figure>
+<img src="http://i.imgur.com/q1G16Tz.png" alt="We Make MegaMinerAI" /><figcaption>We Make MegaMinerAI</figcaption>
+</figure>
+<p>We also use Django for a bunch of different things.</p>
+<ul>
+<li>Our big ol' web application: MegaMinerAI.com</li>
+<li>Our big ol' arena</li>
+<li>Our regular sized voting application</li>
+</ul>
+</section><section id="megaminerai-15" class="slide level2">
+<h1>MegaMinerAI 15</h1>
+<p>Mark your calendars!</p>
+<ul>
+<li>April 18th - 19th, 2015</li>
+<li>Competition begins at Noon on Saturday, and ends at Noon on Sunday</li>
+<li>Compete for fabulous prizes
+<ul>
+<li>First place: $500</li>
+<li>Second place: $220</li>
+<li>Third place: $120</li>
+</ul></li>
+<li>Write code, eat food, have fun, get a shirt</li>
+</ul>
+</section></section>
+<section><section id="our-story-begins" class="titleslide slide level1"><h1>Our Story Begins</h1></section><section class="slide level2">
+
+<p><em>Like any good</em> <strong>Choose Your Own Adventure</strong><em>, we need a premise for this experience that we're about to undergo.</em></p>
+</section></section>
+<section><section id="dungeons-and-djragons" class="titleslide slide level1"><h1>Dungeons and Djragons</h1></section><section class="slide level2">
+
+<p>You are Mango-Dave. Adventurer extraordinaire. Dungeon master. And you are on your ultimate quest in the Django Dungeon. What is it you hope to find here, Mango-Dave? Glory? Riches? A powerful web framework tailored for busy professionals? Only time will tell. Your options are many, Mango-Dave; the dungeon labyrinthine; the slide show baffling and spooky; and not all doors are to be opened...</p>
+</section><section class="slide level2">
+
+<figure>
+<img src="http://i.imgur.com/jE9r1Ar.png" />
+</figure>
+</section></section>
+<section><section id="the-dungeon-or-whatever" class="titleslide slide level1"><h1>The Dungeon or Whatever</h1></section><section class="slide level2">
+
+<p>Ah geez. You're in the dungeon or whatever. There are so many doors... Which one are you going to try now?</p>
+<ul>
+<li><a href="#/authentication">Authentication</a></li>
+<li><a href="#/deploying">Deploying</a></li>
+<li><a href="#/django-apps">Django Apps</a></li>
+<li><a href="#/forms">Forms</a></li>
+<li><a href="#/interactive-frontends">Interactive Frontends</a></li>
+<li><a href="#/models">Models</a></li>
+<li><a href="#/other-batteries">Other Batteries</a></li>
+<li><a href="#/restful-apis">RESTful APIs</a></li>
+<li><a href="#/security">Security</a></li>
+<li><a href="#/templates">Templates</a></li>
+<li><a href="#/views">Views</a></li>
+<li><a href="#/web-development-basics">Web Development Basics</a></li>
+</ul>
+</section><section id="a-key" class="slide level2">
+<h1>A Key</h1>
+<p>You found a key.</p>
+<p>Use the key?</p>
+<p><a href="#/use-the-key">Yes</a> or <a href="#/no">No</a></p>
+</section></section>
+<section><section id="web-development-basics" class="titleslide slide level1"><h1>Web Development Basics</h1></section><section id="how-do-websites-work" class="slide level2">
+<h1>How Do Websites Work?</h1>
+</section><section class="slide level2">
+
+<h3 id="message-passing">Message Passing</h3>
+<p>Pulling up a website involves sending and receiving a number of messages through a network. When you load <code>MegaMinerAI.com</code>, your browser has to do several things:</p>
+</section><section class="slide level2">
+
+<h3 id="getting-a-web-page">Getting a Web Page</h3>
+<p>Let's say we're trying to get <code>MegaMinerAI.com/about/</code></p>
+<ol type="1">
+<li>Figure out which computer on the Internet is named <code>MegaMinerAI.com</code> and get their IP</li>
+<li>Contact the machine for <code>MegaMinerAI.com</code> and ask for the page at <code>/about/</code></li>
+<li><code>MegaMinerAI.com</code> prepares your page for you, and sends it back to your browser</li>
+<li>Your browser can then render <code>MegaMinerAI.com</code>'s response as a web page</li>
+</ol>
+</section><section class="slide level2">
+
+<h3 id="requests-responses">Requests &amp; Responses</h3>
+<p>Clients (browser, etc.) send <strong>requests</strong> to servers.</p>
+<p>Servers send <strong>responses</strong> back.</p>
+<p>Requests and responses follow the hypertext transfer protocol, or HTTP.</p>
+</section><section class="slide level2">
+
+<h3 id="request">Request</h3>
+<p>Clients send request for information by including bits about what they need. This may include the path (<code>/about</code>) that they're trying to get to, user session information, etc.</p>
+<p>There are a variety of different requests methods that clients can use</p>
+<ul>
+<li><strong>GET</strong> A read operation</li>
+<li><strong>POST</strong> A write (create) operation</li>
+<li><strong>PUT</strong> A write (update) operation</li>
+<li><strong>DELETE</strong> A write (delete) operation</li>
+</ul>
+</section><section class="slide level2">
+
+<h3 id="request-1">Request</h3>
+<p>It's up to the server how to interpret the use of these messages. However, a method can give the server a pretty good idea of what the user is trying to do.</p>
+<p>Developers should write their servers check for proper use of request methods for consistency and for their own sanity.</p>
+<p>Often times, servers will reject/ignore HTTP methods that are unauthorized or nonsense. (i.e., deleting a Twitter post that you did not make).</p>
+</section><section class="slide level2">
+
+<h3 id="responses">Responses</h3>
+<p>A server responds to a client's request by returning a big ol' wad of data and meta-data about that data.</p>
+<p>Each response has a response code, which falls into one of several categories:</p>
+<ul>
+<li><code>2XX</code> <strong>Success</strong>: Good job.</li>
+<li><code>4xx</code> <strong>Client Error</strong>: Your client (browser, etc.) sent a message that didn't make any sense to the server</li>
+<li><code>5XX</code> <strong>Server Error</strong>: Something is broken on the server. It's not your fault. Unless you're the server developer. Then it's your fault.</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img src="https://www.djangoproject.com/s/img/logos/django-logo-negative.svg" />
+</figure>
+<p>Django is a <strong>web framework</strong>.</p>
+<p><strong>You</strong> write code to tell Django how to respond to incoming requests.</p>
+</section><section id="how" class="slide level2">
+<h1>How?</h1>
+<p>Django follows a Model, View, Controller design pattern.</p>
+<ul>
+<li><strong>Models</strong> : Define how data is represented in your database</li>
+<li><strong>Templates</strong> : Write template HTML code to specify how pages should look</li>
+<li><strong>Views</strong> : Tell Django how to fill in the templates with the data from your models.</li>
+</ul>
+</section><section id="thats-it" class="slide level2">
+<h1>That's it!</h1>
+<p>It takes some time to get used to, but once you're familiar with the framework, you'll be churning out fancy web applications in no time.</p>
+</section><section id="spooky-ip-packet" class="slide level2">
+<h1>Spooky IP Packet</h1>
+</section><section class="slide level2">
+
+<p>The headers! So many headers! What are the for even!?</p>
+<p>You cover your head and hop away. Fortunately, the packet was routed through a lower latency, though spookier, dungeon.</p>
+<p><a href="#/the-dungeon-or-whatever">Back to the Dungeon or Whatever</a></p>
+</section></section>
+<section><section id="models" class="titleslide slide level1"><h1>Models</h1></section><section id="the-orm" class="slide level2">
+<h1>The ORM</h1>
+<p>Django comes with an <strong>Object Relational Mapper</strong> which handles a lot of boring database stuff for you.</p>
+<p>Including writing SQL.</p>
+<p>You do not have to write SQL.</p>
+<p>You should not write SQL.</p>
+<p>Let Django write SQL.</p>
+</section><section id="why-orm" class="slide level2">
+<h1>Why ORM?</h1>
+<p>Because it is database agnostic. Different relational DBMSs speak variations of SQL. Django knows those variations and can easily switch from DBMS to DBMS.</p>
+<p>Why is that cool?</p>
+<p>You can use something super light-weight (SQLite) for development, and switch to something beefier when you're ready for deployment (PostgreSQL) without having to change your code.</p>
+</section><section id="more-orm" class="slide level2">
+<h1>More ORM</h1>
+<p>You define Python classes, and let Django figure out how to translate them into database tables.</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="ch">from</span> django.db <span class="ch">import</span> models
+
+<span class="kw">class</span> Person(models.Model):
+    first_name = models.CharField(max_length=<span class="dv">30</span>)
+    last_name = models.CharField(max_length=<span class="dv">30</span>)</code></pre>
+<p>Gets automatically turned into this:</p>
+<pre class="sourceCode sql"><code class="sourceCode sql"><span class="kw">CREATE</span> <span class="kw">TABLE</span> myapp_person (
+    <span class="ot">&quot;id&quot;</span> serial <span class="kw">NOT</span> <span class="kw">NULL</span> <span class="kw">PRIMARY</span> <span class="kw">KEY</span>,
+    <span class="ot">&quot;first_name&quot;</span> <span class="dt">varchar</span>(<span class="dv">30</span>) <span class="kw">NOT</span> <span class="kw">NULL</span>,
+    <span class="ot">&quot;last_name&quot;</span> <span class="dt">varchar</span>(<span class="dv">30</span>) <span class="kw">NOT</span> <span class="kw">NULL</span>
+);</code></pre>
+</section><section id="more-more-orm" class="slide level2">
+<h1>More more ORM</h1>
+<p>And it's not just for creating databases.</p>
+<p>Use Python objects to query the database. It's easier to read when you get into long, complicated queries that involve complex relationships.</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="co"># all da people</span>
+all_people = Person.objects.<span class="dt">all</span>()
+
+<span class="co"># all da mango people</span>
+mango_people = Person.objects.<span class="dt">filter</span>(last_name=<span class="st">&quot;Mango&quot;</span>)</code></pre>
+<pre class="sourceCode sql"><code class="sourceCode sql"><span class="kw">SELECT</span> * <span class="kw">FROM</span> my_db.person_table;
+
+<span class="kw">SELECT</span> * <span class="kw">FROM</span> my_db.person_table <span class="kw">where</span> ...</code></pre>
+</section><section id="perfection" class="slide level2">
+<h1>Perfection</h1>
+<p>Nope.</p>
+<p>Ease of development is traded off for some performance. However, in many cases, Django's SQL statements are about as optimal as you can get.</p>
+<p>If you need to write raw SQL, Django's ORM allows for that.</p>
+<p>But SQL is still yucky.</p>
+</section><section id="the-glorious-postgresql-ephant" class="slide level2">
+<h1>The Glorious PostgreSQL-ephant</h1>
+</section><section class="slide level2">
+
+<p>Despite its radiant glory, the PostgreSQL-ephant does not make a big deal about it. In fact, it is making such little deal, that it is, in a way, making the biggest deal about it.</p>
+<p>You are consumed by its glory, but only so much as to buy one of the T-shirts that it is selling. <a href="#/the-dungeon-or-whatever">Back to the Dungeon or Whatever</a></p>
+<figure>
+<img src="http://img2.wikia.nocookie.net/__cb20120707083107/adventuretimewithfinnandjake/images/b/b5/Ancient_Psychic_Tandem_War_Elephant.png" />
+</figure>
+</section></section>
+<section><section id="views" class="titleslide slide level1"><h1>Views</h1></section><section id="views-are-glue" class="slide level2">
+<h1>Views are Glue</h1>
+<p>A <code>view</code> is where you implement your logic for building a web page in response to a request.</p>
+<p>Given all the contextual information from the request, it's the <code>view</code>'s job to return a big wad of HTML for the client.</p>
+</section><section id="view-functions" class="slide level2">
+<h1>View Functions</h1>
+<p>Let's return a <em>very</em> simple page</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="ch">from</span> django.http <span class="ch">import</span> HttpResponse
+<span class="ch">import</span> datetime
+
+<span class="kw">def</span> current_datetime(request):
+    now = datetime.datetime.now()
+    html = <span class="st">&quot;&lt;html&gt;&lt;body&gt;It is now </span><span class="ot">%s</span><span class="st">.&lt;/body&gt;&lt;/html&gt;&quot;</span> % now
+    <span class="kw">return</span> HttpResponse(html)</code></pre>
+</section><section class="slide level2">
+
+<p>Now for a more complex page that uses a template</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="ch">from</span> django.http <span class="ch">import</span> Http404
+<span class="ch">from</span> django.shortcuts <span class="ch">import</span> render_to_response
+<span class="ch">from</span> polls.models <span class="ch">import</span> Poll
+
+<span class="co"># We get poll_id from the url.</span>
+<span class="co"># For example: with a URL pattern of &#39;^/polls/(\d+)/&#39;</span>
+<span class="co"># A visit to `website.com/polls/3/ would set poll_id to 3</span>
+<span class="kw">def</span> detail(request, poll_id):
+    <span class="kw">try</span>:
+        p = Poll.objects.get(pk=poll_id)
+    <span class="kw">except</span> Poll.DoesNotExist:
+        <span class="kw">raise</span> Http404(<span class="st">&quot;Poll does not exist&quot;</span>)
+    <span class="kw">return</span> render_to_response(<span class="st">&#39;polls/detail.html&#39;</span>, {<span class="st">&#39;poll&#39;</span>: p})</code></pre>
+</section><section id="class-based-views" class="slide level2">
+<h1>Class Based Views</h1>
+<p>A lot of pages use the same functionality over and over and over, (ad nauseam).</p>
+<ul>
+<li>Listing objects from the database</li>
+<li>Looking at details of an object</li>
+<li>Editing an object</li>
+<li>Creating an object</li>
+<li>Deleting an object</li>
+</ul>
+<p>Django comes with generic, class-based views that do many of those things for us.</p>
+</section><section id="using-cbvs" class="slide level2">
+<h1>Using CBVs</h1>
+<p>We can create a page that lists all instances of a <code>Person</code> model</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="co"># views.py</span>
+<span class="ch">from</span> django.views.generic <span class="ch">import</span> ListView
+<span class="ch">from</span> .models <span class="ch">import</span> Person
+
+<span class="kw">class</span> PersonList(ListView):
+    model = Person</code></pre>
+</section><section id="using-cbvs-1" class="slide level2">
+<h1>Using CBVs</h1>
+<p>We can even override some default behaviors to make it fancy, but still super-duper short.</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="co"># views.py</span>
+<span class="ch">from</span> django.views.generic <span class="ch">import</span> ListView
+<span class="ch">from</span> .models <span class="ch">import</span> Person
+
+<span class="kw">class</span> MangoList(ListView):
+    template_name = <span class="st">&quot;my_templates/list_mangos.html&quot;</span>
+    paginate_by = <span class="dv">10</span>
+
+    <span class="kw">def</span> get_queryset(<span class="ot">self</span>):
+        <span class="kw">return</span> Person.objects.<span class="dt">filter</span>(last_name=<span class="st">&quot;Mango&quot;</span>)</code></pre>
+</section><section id="the-villain-from-tron" class="slide level2">
+<h1>The Villain from Tron</h1>
+</section><section class="slide level2">
+
+<p>What is that? An upside down silo? OH NO! It’s that red guy from Tron! Look at those creepy eyeballs! You hop on your light bike or whatever and <a href="#/the-dungeon-or-whatever">scoot on outta here</a>.</p>
+<figure>
+<img src="http://vignette2.wikia.nocookie.net/tron/images/1/10/Mcp.PNG/revision/latest?cb=20071224235914" alt="I&#39;m trusting you to not look up my nose. -Tron Guy" /><figcaption>I'm trusting you to not look up my nose. -<em>Tron Guy</em></figcaption>
+</figure>
+</section></section>
+<section><section id="templates" class="titleslide slide level1"><h1>Templates</h1></section><section id="missing-pieces" class="slide level2">
+<h1>Missing Pieces</h1>
+<p>Templates are web pages that are missing pieces.</p>
+<p>Period.</p>
+</section><section id="missing-pieces-1" class="slide level2">
+<h1>Missing Pieces</h1>
+<p>When Django renders a template, it fills in the missing pieces according to a context dictionary (dictionary of variables) that you pass it.</p>
+<p>You create the &quot;holes&quot; using Django's template language</p>
+</section><section class="slide level2">
+
+<p>For example:</p>
+<pre class="sourceCode djangotemplate"><code class="sourceCode djangotemplate"><span class="kw">&lt;html&gt;</span>
+  <span class="kw">&lt;body&gt;</span>
+    <span class="kw">&lt;h1&gt;</span>Hello. My name is <span class="fu">{{ name }}</span>.<span class="kw">&lt;/h1&gt;</span>
+  <span class="kw">&lt;/body&gt;</span>
+<span class="kw">&lt;/html&gt;</span></code></pre>
+<p>Given that the template renderer is passed a context <code>{'name': 'Mango Dave'}</code>, this template will render as:</p>
+<pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;html&gt;</span>
+  <span class="kw">&lt;body&gt;</span>
+    <span class="kw">&lt;h1&gt;</span>Hello. My name is Mango Dave.<span class="kw">&lt;/h1&gt;</span>
+  <span class="kw">&lt;/body&gt;</span>
+<span class="kw">&lt;/html&gt;</span></code></pre>
+</section><section id="tags-and-filters" class="slide level2">
+<h1>Tags and Filters</h1>
+<p>Django's template language allows you to do cool things within templates</p>
+<p>Filters allow you to modify variables before they are added to the rendered page. For example, <code>|upper</code> will make a string uppercase.</p>
+<pre class="sourceCode djangotemplate"><code class="sourceCode djangotemplate"><span class="fu">{{ story.headline</span><span class="ot">|upper </span><span class="fu">}}</span></code></pre>
+<p>Tags allow you to do spookier logic stuff. For loops, for instance.</p>
+<pre class="sourceCode djangotemplate"><code class="sourceCode djangotemplate"><span class="fu">{% for object in object_list %}</span>
+  <span class="kw">&lt;li&gt;</span><span class="fu">{{ object.name }}</span><span class="kw">&lt;/li&gt;</span>
+<span class="fu">{% endfor %}</span></code></pre>
+</section><section id="inheritance" class="slide level2">
+<h1>Inheritance</h1>
+<p>You can also extend templates through inheritance. It is a good idea to reduce repetition by moving bits of HTML to a higher template when possible. As a trivial example...</p>
+</section><section class="slide level2">
+
+<p>Given these templates....</p>
+<pre class="sourceCode djangotemplate"><code class="sourceCode djangotemplate">{# base.html #}
+<span class="kw">&lt;html&gt;</span>
+  <span class="kw">&lt;head&gt;</span>
+    <span class="co">&lt;!--- So many links and scripts and metas ...--&gt;</span>
+  <span class="kw">&lt;/head&gt;</span>
+  <span class="kw">&lt;body&gt;</span>
+    <span class="kw">&lt;h1&gt;</span> Every page has the same title for some reason! <span class="kw">&lt;/h1&gt;</span>
+    <span class="fu">{% block content%}</span> <span class="fu">{% endblock %}</span>
+  <span class="kw">&lt;/body&gt;</span>
+<span class="kw">&lt;/html&gt;</span></code></pre>
+<pre class="sourceCode djangotemplate"><code class="sourceCode djangotemplate">{# mango_list.html #}
+
+<span class="fu">{% extends </span><span class="st">&quot;base.html&quot;</span><span class="fu"> %}</span>
+
+<span class="fu">{% block content%}</span>
+  <span class="kw">&lt;ul&gt;</span>
+    <span class="fu">{% for weapon in mango_weapons %}</span>
+      <span class="kw">&lt;li&gt;</span> <span class="fu">{{ weapon</span><span class="ot">|upper </span><span class="fu">}}</span> <span class="kw">&lt;/li&gt;</span>
+    <span class="fu">{% endfor %}</span>
+  <span class="kw">&lt;/ul&gt;</span>
+<span class="fu">{% </span><span class="er">endblock</span><span class="fu"> %}</span></code></pre>
+</section><section class="slide level2">
+
+<p>... and this context...</p>
+<pre class="sourceCode python"><code class="sourceCode python">context = {
+  <span class="st">&#39;mango_weapons&#39;</span>: [<span class="st">&#39;knife&#39;</span>, <span class="st">&#39;gun&#39;</span>, <span class="st">&#39;two guns&#39;</span>]
+}</code></pre>
+</section><section class="slide level2">
+
+<p>... results in this page.</p>
+<pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;html&gt;</span>
+  <span class="kw">&lt;head&gt;</span>
+    <span class="co">&lt;!--- So many links and scripts and metas ...--&gt;</span>
+  <span class="kw">&lt;/head&gt;</span>
+  <span class="kw">&lt;body&gt;</span>
+    <span class="kw">&lt;h1&gt;</span> Every page has the same title for some reason! <span class="kw">&lt;/h1&gt;</span>
+    <span class="kw">&lt;ul&gt;</span>
+      <span class="kw">&lt;li&gt;</span>KNIFE<span class="kw">&lt;/li&gt;</span>
+      <span class="kw">&lt;li&gt;</span>GUN<span class="kw">&lt;/li&gt;</span>
+      <span class="kw">&lt;li&gt;</span>TWO GUNS<span class="kw">&lt;/li&gt;</span>
+    <span class="kw">&lt;/ul&gt;</span>
+  <span class="kw">&lt;/body&gt;</span>
+<span class="kw">&lt;/html&gt;</span></code></pre>
+</section><section id="the-terrible-trivium" class="slide level2">
+<h1>The Terrible Trivium</h1>
+</section><section class="slide level2">
+
+<p>You hear a quiet voice coming from a dark corner of the room. &quot;I wonder how many toothpicks are here,&quot; it mutters. &quot;There are three!&quot; you shout with confidence.</p>
+<p>You have defeated the Terrible Trivium. Go up a level. Also back to the Dungeon or whatever.</p>
+<p><a href="#/the-dungeon-or-whatever">Back to the Dungeon or Whatever</a></p>
+</section></section>
+<section><section id="forms" class="titleslide slide level1"><h1>Forms</h1></section><section id="forms-1" class="slide level2">
+<h1>Forms</h1>
+<p>Forms attempt to make it easier for users to submit information to your website. Instead of manually parsing data that comes in as <code>POST</code> data, Django will parse and validate information for you.</p>
+<p>Now you can render forms in a template like this</p>
+<pre class="sourceCode djangotemplate"><code class="sourceCode djangotemplate"><span class="fu">{{ form.as_p }}</span></code></pre>
+<p>... instead of like this</p>
+<pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;form</span><span class="ot"> action=</span><span class="st">&quot;/your-name/&quot;</span><span class="ot"> method=</span><span class="st">&quot;post&quot;</span><span class="kw">&gt;</span>
+  <span class="kw">&lt;label</span><span class="ot"> for=</span><span class="st">&quot;your_name&quot;</span><span class="kw">&gt;</span>Your name: <span class="kw">&lt;/label&gt;</span>
+  <span class="kw">&lt;input</span><span class="ot"> id=</span><span class="st">&quot;your_name&quot;</span><span class="ot"> type=</span><span class="st">&quot;text&quot;</span><span class="ot"> name=</span><span class="st">&quot;your_name&quot;</span><span class="ot"> value=</span><span class="st">&quot;{{ current_name }}&quot;</span><span class="kw">&gt;</span>
+  <span class="kw">&lt;input</span><span class="ot"> type=</span><span class="st">&quot;submit&quot;</span><span class="ot"> value=</span><span class="st">&quot;OK&quot;</span><span class="kw">&gt;</span>
+<span class="kw">&lt;/form&gt;</span></code></pre>
+</section><section id="form-class" class="slide level2">
+<h1>Form Class</h1>
+<p>Forms are implemented as classes. They do a lot of magic to validate the data that comes back, which means less time writing tedious code.</p>
+<p>You can even specify what kind of HTML form field to use and how to validate the data coming back from the user.</p>
+</section><section class="slide level2">
+
+<p>This form uses a <code>&lt;textarea&gt;</code> instead of a <code>&lt;input type=&quot;text&quot;&gt;</code>.</p>
+<p>It also validates the user's submitted form by constraining the number of characters in the subject to 100 characters and making the <code>attn</code> field optional.</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="ch">from</span> django <span class="ch">import</span> forms
+
+<span class="kw">class</span> ContactForm(forms.Form):
+    subject = forms.CharField(max_length=<span class="dv">100</span>)
+    message = forms.CharField(widget=forms.Textarea)
+    sender = forms.EmailField()
+    attn = forms.CharField(max_length=<span class="dv">100</span>, required=<span class="ot">False</span>)
+    cc_myself = forms.BooleanField(required=<span class="ot">False</span>)</code></pre>
+</section><section id="widgets-and-validation" class="slide level2">
+<h1>Widgets and Validation</h1>
+<p>You can also write your own custom HTML widgets and validators.</p>
+<p>Maybe you need to make sure that a field is a valid SHA hash. Just write a function to check its length, and ensure that all the values are in <code>[a-f0-9]</code>.</p>
+</section><section id="creepy-clipboard" class="slide level2">
+<h1>Creepy Clipboard</h1>
+</section><section class="slide level2">
+
+<p>What is this a clipboard? Oh, it has a little survey on it. OUCH! It bit your mango finger! That’s gonna bruise. <a href="#/you-are-dead">You are dead.</a></p>
+</section></section>
+<section><section id="django-apps" class="titleslide slide level1"><h1>Django Apps</h1></section><section id="django-apps-1" class="slide level2">
+<h1>Django Apps</h1>
+<p>Back in the day, Django was designed to allow developers to write reusable applications. That way, future developers could re-use existing code that has already been tested.</p>
+<p>Because we all test our code.</p>
+<p>Test your code.</p>
+</section><section id="examples" class="slide level2">
+<h1>Examples!</h1>
+<p><em>(Read a horn tootin')</em></p>
+<ul>
+<li><a href="https://github.com/michaelwisely/django-competition">Django Competition</a></li>
+<li><a href="https://github.com/michaelwisely/django-greta">Django Greta</a></li>
+<li><a href="http://www.intenct.nl/projects/django-allauth/">Django Allauth</a></li>
+<li><a href="http://www.django-rest-framework.org/">Django Rest Framework</a></li>
+</ul>
+</section><section id="writing-a-reusable-app" class="slide level2">
+<h1>Writing a Reusable App</h1>
+<ul>
+<li>Read the docs</li>
+<li>Be generic</li>
+<li>Stick to the framework</li>
+<li>Don't get clever</li>
+</ul>
+</section><section id="a-lion" class="slide level2">
+<h1>A Lion</h1>
+</section><section class="slide level2">
+
+<p>It is preoccupied with a beach ball. You got lucky this time.</p>
+<figure>
+<img src="http://33.media.tumblr.com/28c0eb908d68fd32b76089863933451e/tumblr_n6thuoReMm1re0m3eo1_r2_500.gif" />
+</figure>
+<p><a href="#/the-dungeon-or-whatever">Back to the Dungeon or Whatever</a></p>
+</section></section>
+<section><section id="deploying" class="titleslide slide level1"><h1>Deploying</h1></section><section id="gettin-ready" class="slide level2">
+<h1>Gettin' Ready</h1>
+<p>Be sure to turn off all <code>DEBUG_*</code> settings.</p>
+<p>Use another bit of software to help run your Django app in parallel and make it more redundant. I am partial to <code>gunicorn</code></p>
+</section><section id="take-security-precautions" class="slide level2">
+<h1>Take Security Precautions</h1>
+<p>Don't open unnecessary ports on your deployment machine.</p>
+<p>Check your configurations.</p>
+<p>Be paranoid.</p>
+</section><section id="use-wsgi" class="slide level2">
+<h1>Use WSGI</h1>
+<p>That's what they want you to use, so use it.</p>
+<p>I like <code>gunicorn</code> + <code>nginx</code></p>
+</section><section id="a-generic-enemy" class="slide level2">
+<h1>A Generic Enemy</h1>
+</section><section class="slide level2">
+
+<p>Entering this new part of the dungeon you see a person standing to greet you.</p>
+<p>&quot;Hello,&quot; you say.</p>
+<p>&quot;Oh, hello,&quot; they say. &quot;I didn't know anyone else was down here.&quot;</p>
+<p>The silence becomes awkward. <a href="#/you-are-dead">You are dead.</a></p>
+</section></section>
+<section><section id="authentication" class="titleslide slide level1"><h1>Authentication</h1></section><section id="free-batteries" class="slide level2">
+<h1>Free Batteries</h1>
+<p>Django comes with a <code>User</code> model and a bunch of helper functions and views to help you get users set up. Django makes it easy to check whether a user is logged in, get their information, log them in, and log them out. It's really nice.</p>
+<p>You just have to write some custom views for <code>login</code> and <code>logout</code> to make those pages look like the rest of your site. Also other minor setup. Read the docs.</p>
+</section><section id="more-batteries" class="slide level2">
+<h1>More Batteries</h1>
+<p><strong>Django AllAuth</strong> is a third-party application that makes it easy to use other services for authentication:</p>
+<ul>
+<li>OAuth 2.0
+<ul>
+<li>GitHub</li>
+<li>Google</li>
+</ul></li>
+<li>Facebook (Might be oauth?)</li>
+<li>OpenID
+<ul>
+<li>Starting to phase out. Do avoid.</li>
+</ul></li>
+</ul>
+</section><section id="a-helpful-police-officer" class="slide level2">
+<h1>A Helpful Police Officer</h1>
+</section><section class="slide level2">
+
+<p>You run into a uniformed police officer.</p>
+<p>&quot;What are you doing down here?&quot; you ask. &quot;I could really use help finding my way around here.&quot;</p>
+<p>He continues eating his donuts and coffee because he is a stereotype.</p>
+<p>You partake in the breakfast foods. Go up a level.</p>
+<p><a href="#/the-dungeon-or-whatever">Back to the Dungeon or Whatever</a></p>
+</section></section>
+<section><section id="restful-apis" class="titleslide slide level1"><h1>RESTful APIs</h1></section><section id="use-restframework" class="slide level2">
+<h1>Use restframework</h1>
+<p>Django Rest Framework is the best.</p>
+<p>Period.</p>
+<p>Their code base is beautiful and their documentation is good.</p>
+<p>Also, your app will come with a free browser-friendly API explorer, if you want to use it.</p>
+</section><section id="demo" class="slide level2">
+<h1>Demo</h1>
+<p>Possibly?</p>
+</section><section id="the-unhelpful-parrot" class="slide level2">
+<h1>The Unhelpful Parrot</h1>
+</section><section class="slide level2">
+
+<p>A parrot perched on a... perch... watches as you enter the next room. Despite a terrible fear of birds, you proceed to ask it for directions.</p>
+<p>&quot;Hello...&quot; you ask timidly.</p>
+<p>The parrot squawks back</p>
+<pre class="sourceCode json"><code class="sourceCode json"><span class="fu">{</span>
+  <span class="dt">&quot;code&quot;</span><span class="fu">:</span> <span class="dv">401</span><span class="fu">,</span>
+  <span class="dt">&quot;message&quot;</span><span class="fu">:</span> <span class="st">&quot;Requires authentication&quot;</span>
+<span class="fu">}</span></code></pre>
+<p>You don't understand and run away in fear.</p>
+<p><a href="#/the-dungeon-or-whatever">Back to the Dungeon or Whatever</a></p>
+</section></section>
+<section><section id="interactive-frontends" class="titleslide slide level1"><h1>Interactive Frontends</h1></section><section id="the-difference" class="slide level2">
+<h1>The Difference</h1>
+<p><code>&lt;rant&gt;</code></p>
+</section><section id="the-difference-1" class="slide level2">
+<h1>The Difference</h1>
+<p><code>&lt;/rant&gt;</code></p>
+</section><section id="js-frameworks" class="slide level2">
+<h1>JS Frameworks</h1>
+<p>You can expect to be able to use most any JavaScript / CSS framework you'd like with Django.</p>
+<p>It speaks HTTP, so just make sure the content of your requests and responses jive between your frontend and backend.</p>
+<p>AngularJS's <code>$resource</code>, for example, expects URLs to be a certain way, and for responses to take a particular form. Either your Django app will have to adjust to meet Angular's needs, or you'll have to use <code>$http</code> or something in Angular to meet Django's needs.</p>
+</section><section id="cool-things" class="slide level2">
+<h1>Cool things</h1>
+<ul>
+<li>AngularJS</li>
+<li>EmberJS</li>
+<li>Dart</li>
+<li>Elm</li>
+</ul>
+</section><section id="the-room-of-ever-changing-dimensions" class="slide level2">
+<h1>The Room of Ever-Changing Dimensions</h1>
+</section><section class="slide level2">
+
+<p>It seems as though you have been walking through this room forever. You've been walking in the same direction, but you seem to make no progress.</p>
+<p>You step to the side, and the floor freaks out, dragging you to the door at the other end.</p>
+<p>You look around to see that the room is actually regular size. Despite your attempts to walk, it was changing around you. Your unexpected side-step broke its underlying logic.</p>
+<p>Parallax scrolling is stupid.</p>
+<p><a href="#/the-dungeon-or-whatever">Back to the Dungeon or Whatever</a> <a href="#/no">Parallax scrolling isn't stupid</a></p>
+</section></section>
+<section><section id="security" class="titleslide slide level1"><h1>Security</h1></section><section id="please-no" class="slide level2">
+<h1>Please, no?</h1>
+<p><a href="https://docs.djangoproject.com/en/1.7/topics/security/">Here's a link</a>. My hands are killing me</p>
+</section><section id="an-unjustifiably-nervous-troll" class="slide level2">
+<h1>An Unjustifiably Nervous Troll</h1>
+</section><section class="slide level2">
+
+<p>You happen upon an enormous Troll reading the newspaper.</p>
+<p>&quot;Did you hear about the government agency stealing all of our data?&quot; he says unsteadily.</p>
+<p>&quot;No,&quot; you reply.</p>
+<p>&quot;I deleted all my Internet accounts just in case. Ain't nobody stealing my gooey butter cookie recipe,&quot; he booms in an overly loud and shaky voice.</p>
+<p>Stone faced, you back away slowly to return to the dungeon or whatever.</p>
+<p><a href="#/the-dungeon-or-whatever">Back to the Dungeon or Whatever</a></p>
+</section></section>
+<section><section id="other-batteries" class="titleslide slide level1"><h1>Other Batteries</h1></section><section id="free-stuff" class="slide level2">
+<h1>Free Stuff</h1>
+<ul>
+<li>The Admin</li>
+<li>Authentication</li>
+<li>Pagination</li>
+<li>Sending emails</li>
+<li>Feeds (Atom, RSS)</li>
+</ul>
+</section></section>
+<section><section id="story-slides" class="titleslide slide level1"><h1><em>Story Slides</em></h1></section><section id="you-are-dead" class="slide level2">
+<h1>You are dead</h1>
+<p>You shouldn'ta done whatever you done did.</p>
+<p>Good thing you had a bookmark.</p>
+<p><a href="#/the-dungeon-or-whatever">Turn back to that dungeon slide.</a></p>
+</section><section id="no" class="slide level2">
+<h1>No</h1>
+<p>You have to go back to the dungeon or whatever.</p>
+<p><a href="#/the-dungeon-or-whatever">Go back to the dungeon or whatever</a></p>
+</section><section id="use-the-key" class="slide level2">
+<h1>Use The Key</h1>
+<p>You did it! You found the right door! It was just locked, is all.</p>
+<p>You leave the dungeon with more knowledge of web development than when you entered, though you're still confused as to how you got in the dungeon in the first place.</p>
+<p><a href="#/the-dungeon-or-whatever">Go back to the dungeon to explore again.</a></p>
+<p><a href="#/go-home">Go Home</a></p>
+</section><section id="go-home" class="slide level2">
+<h1>Go Home</h1>
+<p>Thanks for coming</p>
+<p><strong>Don't forget to register for MegaMinerAI15!</strong></p>
+<!--  Localwords:  Django MegaMinerAI imgur png ACM SIG Neato django
+ -->
+<!--  LocalWords:  Djragons Frontends APIs nauseam
+ -->
+</section></section>
+    </div>
+  </div>
+
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/lib/js/head.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'serif', // available themes are in /css/theme
+        transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  
+    <script type="text/javascript">
+    Reveal.configure({controls: false});
+  </script>
+    </body>
+</html>
