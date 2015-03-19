@@ -164,7 +164,7 @@ Tournament
     only receive their entry fee for the first victory. In this case,
     the next highest ranked team is awarded the prize.
 - Tournament Configuration
-  - Triple Elimination
+  - Single Elimination
   - Prize awarded to first place winner
   - Brackets seeded according to performance in the Arena
 
