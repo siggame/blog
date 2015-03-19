@@ -1,0 +1,16 @@
+---
+layout: embedded
+title: Missouri S&T ACM SIG-Game Blog
+---
+
+{% for post in site.posts limit:10 %}
+  <div class="text-center">
+    <h2>
+      <a target="_blank" href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <span class="lead">{{ post.date | date_to_string }}</span>
+  </div>
+  {% unless forloop.last %}
+    <hr>
+  {% endunless %}
+{% endfor %}
