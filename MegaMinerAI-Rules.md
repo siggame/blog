@@ -163,8 +163,12 @@ Tournament
   - If a team wins more than one Quick Draw Tournament, they will
     only receive their entry fee for the first victory. In this case,
     the next highest ranked team is awarded the prize.
+- Participation:
+  - Student teams may participate
+  - Non-student teams may participate
+  - SIG-Game Developer teams **may not** participate
 - Tournament Configuration
-  - Triple Elimination
+  - Single Elimination
   - Prize awarded to first place winner
   - Brackets seeded according to performance in the Arena
 
@@ -174,6 +178,10 @@ Final Tournament
 - Purpose: The final tournament determines the top three student teams
 - Prize - Outlined in "Prizes" section.
   - Eligibility is detailed in the "Eligibility" section
+- Participation:
+  - Student teams may participate
+  - Non-student teams **may not** participate
+  - SIG-Game Developer teams **may not** participate
 - Tournament Configuration
   - Triple Elimination
   - Prizes awarded to first, second, and third place winners
@@ -184,6 +192,10 @@ Final Tournament
 - Purpose: The final tournament determines the top three teams
   (student, non-student, and SIG-Game Developer teams)
 - Prize - No prizes are awarded
+- Participation:
+  - Student teams may participate
+  - Non-student teams may participate
+  - SIG-Game Developer teams may participate
 - Tournament Configuration
   - Triple Elimination
   - Brackets seeded according to performance in the Arena
@@ -208,12 +220,16 @@ Eligibility
   - Remote competitors are not eligible to win prizes.
   - If a prize-winning team is unable to attend the Closing
     Ceremony, they are still eligible to win prizes.
+- If a team has one or more SIG-Game Developer member, that team will
+  be ineligible to win **any** prizes at MegaMinerAI.
 - All team members *must* be full-time or part-time students to be
   eligible for prizes in the Final Tournament.
   - If a team has one or more non-student member, that team will be
     ineligible to win prizes in the Final Tournament.
-  - If a team has one or more SIG-Game Developer member, that team
-    will be ineligible to win **any** prizes at MegaMinerAI.
+- Any student or non-student team (that has zero SIG-Game Developer
+  members) may win prizes during a Quick Draw tournament.
+  - Non-student team members do not affect a team's eligibility to win
+    prizes during a Quick Draw tournament.
 
 Receiving Help
 --------------
