@@ -4,7 +4,7 @@ title: "MegaMiner AI 15"
 author: "Gallow"
 ---
 
-Segfaults... why'd it have to be Segfaults?
+Segfaults... why'd it have to be segfaults?
 -------------------------------------------
 
 Megaminer AI 15 Pharaoh is next weekend (**April 18th 2015**)! If you haven't
@@ -12,7 +12,7 @@ signed up yet register for the competition right over [here](https://megaminerai
 
 The cost to compete is $24 per team, up to three members per team. Not four,
 not five, 3. Three is the most people that can be on a team.  To top it off, for
-each team member that is a member of ACM the team will receive a $4 discount.
+each team member that is a member of Missouri S&T's ACM chapter the team will receive a $4 discount.
 
 Wanna join Missouri S&T ACM? Check out this [website](http://acmvm1.srv.mst.edu/acm-wordpress/).
 
@@ -35,7 +35,7 @@ Give a warm welcome to Garmin, Tradebot, Nucor, and Microsoft!
 Pharaoh Schedule!
 ------------------
 Pharaoh will begin at noon on Saturday April 18th, 2015 and will end at
-noon on Sunday April 19th, 2014. Check out the schedule below for
+noon on Sunday April 19th, 2015. Check out the schedule below for
 details. Pharoah will be taking over
 [Toomey Hall](https://goo.gl/maps/HJA95) on Missouri S&T's campus.
 
