@@ -7,7 +7,7 @@ author: "Gallow"
 Segfaults... why'd it have to be segfaults?
 -------------------------------------------
 
-Megaminer AI 15 Pharaoh is next weekend (**April 18th 2015**)! If you haven't
+Megaminer AI 15 Pharaoh is this weekend (**April 18th 2015**)! If you haven't
 signed up yet register for the competition right over [here](https://megaminerai.com/competition/megaminerai-15-pharaoh/) <---
 
 The cost to compete is $24 per team, up to three members per team. Not four,
@@ -15,7 +15,6 @@ not five, 3. Three is the most people that can be on a team.  To top it off, for
 each team member that is a member of Missouri S&T's ACM chapter the team will receive a $4 discount.
 
 Wanna join Missouri S&T ACM? Check out this [website](http://acmvm1.srv.mst.edu/acm-wordpress/).
-
 
 The Prizes
 -----------
@@ -27,10 +26,6 @@ Thanks to our awesome sponsors, the prizes are definitely worthy of Pharaoh.
 * Third Place: **$120**{: data-toggle="tooltip" data-placement="right" title="That's like 100 Saturday Allowances" }
 
 Who are these people who can shell out that kinda money?
-
-Meet our Sponsors!
-------------------
-Give a warm welcome to Garmin, Tradebot, Nucor, and Microsoft!
 
 Pharaoh Schedule!
 ------------------
