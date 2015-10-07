@@ -17,7 +17,7 @@ First Place: Kilobytes of Speed
 - Tell Johnson
 - Nicholas Douglas
 
-Second Place: Abraham Lin
+Second Place: Abraham Lin::::::::::
 
 - Ian Clark
 - amammele
@@ -39,7 +39,7 @@ Second Place: FreakBot
 
 - Shawn McCormick
 
-Third Place: Abraham Lin
+Third Place: Abraham Lin::::::::::
 
 - Ian Clark
 - amammele
