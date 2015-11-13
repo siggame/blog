@@ -62,16 +62,17 @@ registration fees. If lunch is provided on Sunday, that is also
 provided to those teams.
 
 - Saturday
-  - 12:00 PM - 12:30 PM - **Opening Ceremony**
-  - ~12:30 PM - **Competition begins**
-  - ~6:00 PM - **Quick Draw Tournament**
+  - 3:00 PM - 3:30 PM - **Opening Ceremony**
+  - ~3:30 PM - **Competition begins**
   - ~6:00 PM - Dinner
+  - ~9:00 PM - **Quick Draw Tournament**
+
 
 - Sunday
   - ~8:00 AM - Breakfast
-  - 12:00 PM - **Competition ends**
-  - ~12:15 PM - (Possibly) Lunch
-  - ~12:30 PM - **Closing Ceremony**
+  - 12:00 PM - Lunch
+  - 3:00 PM - **Competition ends**
+  - ~3:30 PM - **Closing Ceremony**
 
 Registration Fees
 -----------------
@@ -156,7 +157,7 @@ Tournament
 
 - Purpose: An initial tournament on Saturday evening that identifies
   which team is currently in first place. A second Quick Draw
-  Tournament may occur at midnight on Sunday
+  Tournament may occur at 9:00 AM on Sunday
 - Prize: The first-place team will receive their registration fee
   back.
   - Eligibility is detailed in the "Eligibility" section
