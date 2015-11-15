@@ -135,21 +135,21 @@ Tournament
       repository
     - The makefile must able to successfully build the team’s
       program
-  - run.sh file
-    - A Bash script named "run.sh" must be at the *top level* of
+  - run file
+    - A Bash script named "run" must be at the *top level* of
       the team’s repository
     - Executing this script must start the team’s AI program
     - The script must allow for command line arguments to be
       passed to the compiled executable
 - If a submitted program is not fully built by ``make`` and
-  executable with ``run.sh``, the AI may be ineligible for
+  executable with ``run``, the AI may be ineligible for
   participation
   - For example, a team’s program may compile and run in Eclipse or
     Visual Studio, but if that program does not compile and run as
     described above, that AI will not be run in the final tournament
 - Please note that the ShellAI provided to each competitor ***will
   successfully compile and run as described***. No changes are necessary
-  to compile ShellAI. In most cases, the ``Makefile`` and ``run.sh`` do
+  to compile ShellAI. In most cases, the ``Makefile`` and ``run`` do
   not require modification to work with other AIs as well.
 - Teams should ask SIG-Game Developers for help if necessary.
 
