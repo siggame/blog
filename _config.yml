@@ -11,3 +11,6 @@ markdown: kramdown
 
 static_url: /static/
 production_url : "http://blog.megaminerai.com"
+
+gems:
+  - jekyll-paginate
