@@ -6,3 +6,4 @@
 
 # For Jekyll
 _site/*
+Gemfile.lock
