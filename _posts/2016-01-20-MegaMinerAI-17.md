@@ -10,5 +10,3 @@ Mark your calendars! MegaMinerAI 17 has been scheduled for Saturday
 April 9th and Sunday April 10th.
 
 Stay tuned!
-
-![Oh boy, oh boy, oh boy!](https://i.imgur.com/NkRND0E.gif)
