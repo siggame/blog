@@ -62,22 +62,6 @@
       we will do.
     </p>
 
-- id: lumate
-  name: Lumate
-  url: http://www.lumate.com
-  image: lumate.png
-  description: |
-
-    <p>
-      Lumate makes mobile advertising efficient and
-      affordable by targeting ads to users based on their
-      individual interests, preferences, and current
-      situation. This saves advertisers money, makes app
-      developers more money, and improves the ad experience
-      for users. Advertisers pay us to show their ads only
-      to people they want seeing them.
-    </p>
-
 - id: jetbrains
   name: JetBrains
   url: http://www.jetbrains.com
@@ -153,17 +137,6 @@
       on <a href="https://github.com/getsentry">GitHub</a>.
     </p>
 
-- id: microsoft
-  name: Microsoft
-  image: microsoft.png
-  description: |
-  
-    <p>
-      Founded in 1975, Microsoft (Nasdaq "MSFT") is the worldwide
-      leader in software, services, and solutions that help people 
-      and businesses realize their full potential.
-    </p>
-
 - id: bats
   name: BATS
   url: http://batstrading.com
@@ -189,4 +162,22 @@
       Markets, a leading operator of stock and options
       markets in the U.S. and Europe. For more information
       about BATS Global Markets, please visit www.bats.com.
+    </p>
+
+- id: att
+  name: AT&T
+  url: http://att.com
+  image: att_logo.png
+  description: |
+
+    <p class="lead">About AT&T</p>
+
+    <p>
+      At AT&T, we’re bringing it all together. We deliver advanced mobile services, next-generation TV, high-speed Internet and smart solutions for people and businesses. That’s why we stand alone as a fully integrated solution provider.
+
+      Fast, highly secure and mobile connectivity – to everything on the Internet, everywhere, at every moment and on every device – is what drives us. It’s reflected in our mission:
+
+      Connect people with their world, everywhere they live, work and play … and do it better than anyone else.
+
+      So our customers can stay connected from nearly anywhere. It doesn’t matter if they’re driving home from work or traveling across the country or beyond.
     </p>
