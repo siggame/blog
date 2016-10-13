@@ -299,9 +299,9 @@ competitors in the manner described in these rules.
 
 Also, competitors agree by submitting code to this competition to allow the use
 of their code by the organizers of this competition during and after the
-competition, exclusively for the purposes of testing and refining the
-Siggame-Cadre Framework.  Competitors' code will not be used,
-in whole or in part, for any other purpose after the duration of the competition.
+competition, exclusively for the purposes of testing and refining infrastructure
+maintained by SIG-Game. Competitors' code will not be used, in whole or in part,
+for any other purpose after the duration of the competition.
 
 
 Other Rules and Policies
