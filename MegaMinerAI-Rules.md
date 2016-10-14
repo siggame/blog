@@ -82,11 +82,11 @@ Registration Fees
   - The registration fee is $24 per team regardless of team size.
   - Teams must pay their registration fees in cash. SIG-Game doesn't
     presently have means to accept credit card payment.
-- A team will receive a discount of $4 for each team member who is a
+- A team will receive a discount of $8 for each team member who is a
   dues-paying member of Missouri S&T’s ACM chapter.
   - For example, a team with exactly two S&T ACM members will
-    receive a $8 discount. Thus, that team’s registration fee
-    will be $16.
+    receive a $16 discount. Thus, that team’s registration fee
+    will be $8.
   - Discount eligibility will be determined according to S&T ACM’s
     official roster.
   - You *must* be a member of ACM at the time of competition to be
@@ -255,7 +255,7 @@ If a team is suspected of cheating or sabotaging SIG-Game, MegaMinerAI,
 or another competing team, SIG-Game will revoke the eligibility of the
 saboteur’s entire team and remove that team from the competition. The
 final decision to remove a team from competition will be made by the
-President of SIG-Game.
+Chair of SIG-Game.
 
 Please note that this does not include game strategies. For example, if
 an AI is written to perform well against one particular opponent,
