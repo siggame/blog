@@ -62,7 +62,7 @@ registration fees. If lunch is provided on Sunday, that is also
 provided to those teams.
 
 - Saturday
-  - 3:00 PM - 3:30 PM - **Opening Ceremony**
+  - 12 noon - 12:30 - **Opening Presentation**
   - ~3:30 PM - **Competition begins**
   - ~6:00 PM - Dinner
   - ~9:00 PM - **Quick Draw Tournament**
@@ -70,8 +70,8 @@ provided to those teams.
 
 - Sunday
   - ~8:00 AM - Breakfast
-  - 12:00 PM - Lunch
-  - 3:00 PM - **Competition ends**
+  - 12 noon - Lunch
+  - 12 noon
   - ~3:30 PM - **Closing Ceremony**
 
 Registration Fees
@@ -82,11 +82,11 @@ Registration Fees
   - The registration fee is $24 per team regardless of team size.
   - Teams must pay their registration fees in cash. SIG-Game doesn't
     presently have means to accept credit card payment.
-- A team will receive a discount of $4 for each team member who is a
+- A team will receive a discount of $8 for each team member who is a
   dues-paying member of Missouri S&T’s ACM chapter.
   - For example, a team with exactly two S&T ACM members will
-    receive a $8 discount. Thus, that team’s registration fee
-    will be $16.
+    receive a $16 discount. Thus, that team’s registration fee
+    will be $8.
   - Discount eligibility will be determined according to S&T ACM’s
     official roster.
   - You *must* be a member of ACM at the time of competition to be
@@ -103,7 +103,7 @@ Teams
   members.
 - Teams must be formed on SIG-Game’s website prior to the start of the
   competition. All code submissions must be made through this site.
-- Competitors without teams (freeagents) will have an opportunity to form
+- Competitors without teams (free agents) will have an opportunity to form
   teams at the beginning of MegaMinerAI. SIG-Game will attempt to help
   freeagents find teams to join.
 - Prize eligibility varies based on the status of team members. Please
@@ -255,7 +255,7 @@ If a team is suspected of cheating or sabotaging SIG-Game, MegaMinerAI,
 or another competing team, SIG-Game will revoke the eligibility of the
 saboteur’s entire team and remove that team from the competition. The
 final decision to remove a team from competition will be made by the
-President of SIG-Game.
+Chair of SIG-Game.
 
 Please note that this does not include game strategies. For example, if
 an AI is written to perform well against one particular opponent,
@@ -284,12 +284,31 @@ actions, please contact SIG-Game.
   - Abusively consuming CPU, memory, disk space
 - Stealing code from other teams
 
+IP Terms and Conditions
+-----------------------
+At the beginning of the competition, all competitors are provided with base
+code, which they then modify and add to for the purposes of the competition.
+
+All modifications and additions to the base code made by competitors are
+intellectual property, ownership of which is retained by the competitors.
+
+By entering this competition, competitors agree to allow the use of their code
+by the organizers of the competition for the duration of the competition,
+exclusively for the purposes of competing the code against the work of other
+competitors in the manner described in these rules.
+
+Also, competitors agree by submitting code to this competition to allow the use
+of their code by the organizers of this competition during and after the
+competition, exclusively for the purposes of testing and refining infrastructure
+maintained by SIG-Game. Competitors' code will not be used, in whole or in part,
+for any other purpose after the duration of the competition.
+
 
 Other Rules and Policies
 ------------------------
 
 All other decisions not covered in this document will be made by the
-President of SIG-Game or their designee.
+Chair of SIG-Game or their designee.
 
 Changes to this document
 ------------------------
