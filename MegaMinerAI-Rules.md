@@ -62,7 +62,7 @@ registration fees. If lunch is provided on Sunday, that is also
 provided to those teams.
 
 - Saturday
-  - 12 noon - 12:30 - **Opening Presentation**
+  - 12 noon - 12:30 - **Opening Presentation** **Takes place in Butler Carlton Hall 125**
   - ~3:30 PM - **Competition begins**
   - ~6:00 PM - Dinner
   - ~9:00 PM - **Quick Draw Tournament**
@@ -71,8 +71,8 @@ provided to those teams.
 - Sunday
   - ~8:00 AM - Breakfast
   - 12 noon - Lunch
-  - 12 noon
-  - ~3:30 PM - **Closing Ceremony**
+  - ~ 12:30  **Closing Ceremony**
+  
 
 Registration Fees
 -----------------
@@ -80,11 +80,11 @@ Registration Fees
 - A registration fee of $24 per team will be collected at the end of
   the Opening Ceremony.
   - The registration fee is $24 per team regardless of team size.
-  - Teams must pay their registration fees in cash. SIG-Game doesn't
-    presently have means to accept credit card payment.
+  - Teams must pay their registration fees in cash.
 - A team will receive a discount of $8 for each team member who is a
-  dues-paying member of Missouri S&T’s ACM chapter.
-  - For example, a team with exactly two S&T ACM members will
+  dues-paying member of Missouri S&T’s ACM chapter, a student with a 
+  valid student ID from a non-MST university, or bearing a free entry code.
+  - For example, a team with exactly two member fulfilling the above criteria will
     receive a $16 discount. Thus, that team’s registration fee
     will be $8.
   - Discount eligibility will be determined according to S&T ACM’s
