@@ -8,7 +8,7 @@ author: "Jake Gallow"
 ![Saloon](../static/img/content/Saloon.png)
 
 The signups for MegaMinerAI 18: Saloon are open! Round up your posse of three
-and go make your team at [MegaMinerAI.com](MegaMinerAI.com). The competition is
+and go make your team at [MegaMinerAI.com](https://megaminerai.com). The competition is
 November 12-13 from high noon to high noon.
 
 As always the cost is $24 per team, but you'll get a T-shirt, plenty of food,
