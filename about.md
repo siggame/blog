@@ -111,7 +111,7 @@ Contact Us  {#Contact-Us}
 
 {:refdef: .list-unstyled }
 * E-mail SIG-Game at [siggame@mst.edu](mailto:siggame@gmail.com)
-* E-mail SIG-Game Chair, Jake Gallow, at <jwgp63@mst.edu>
+* E-mail SIG-Game Chair, Joey Kuhn, at <jck244@mst.edu>
 {: refdef .list-unstyled}
 
 <!--  LocalWords:  MegaMinerAI
