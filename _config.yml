@@ -2,7 +2,7 @@ permalink: pretty
 
 excerpt_separator: "<!--end excerpt-->"
 paginate: 5
-paginate_path: "/blog/page/:num"
+paginate_path: "/page/:num"
 
 safe: true
 lsi: false
