@@ -11,4 +11,4 @@ trackball mouse and hamster powered laptop.
 Also, if you are interested in developing this semester's game with us, feel
 free to join us on Fridays from 4PM-5PM in CS207. 
 
-![What's it gonna be?](../static/img/content/question_mark.png)
+![What's it gonna be?](static/img/content/question_mark.png)
