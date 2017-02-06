@@ -1,4 +1,4 @@
-permalink: pretty
+permalink: "/blog/:categories/:year/:month/:day/:title.html" 
 
 excerpt_separator: "<!--end excerpt-->"
 paginate: 5
