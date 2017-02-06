@@ -9,6 +9,7 @@ lsi: false
 highlighter: rouge
 markdown: kramdown
 
+root_url: /blog/
 static_url: /blog/static/
 production_url : "http://siggame.github.io/blog/"
 
