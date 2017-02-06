@@ -2,7 +2,7 @@ permalink: pretty
 
 excerpt_separator: "<!--end excerpt-->"
 paginate: 5
-paginate_path: "blog/page/:num"
+paginate_path: "/blog/page/:num"
 
 safe: true
 lsi: false
@@ -10,7 +10,7 @@ highlighter: rouge
 markdown: kramdown
 
 static_url: /blog/static/
-production_url : "http://blog.megaminerai.com"
+production_url : "http://siggame.github.io/blog/"
 
 gems:
   - jekyll-paginate
