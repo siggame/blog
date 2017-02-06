@@ -9,7 +9,7 @@ lsi: false
 highlighter: rouge
 markdown: kramdown
 
-static_url: /static/
+static_url: /blog/static/
 production_url : "http://blog.megaminerai.com"
 
 gems:
