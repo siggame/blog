@@ -4,11 +4,11 @@
     <ul class="nav nav-pills nav-stacked post-list">
       {% for post in site.posts limit:10 %}
       <li class="{% if post.id == page.id %}active{% endif %}">
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a href="{{site.root_url}}{{ post.url }}">{{ post.title }}</a>
       </li>
       {% endfor %}
       <li class="text-muted">
-        <a href="/posts/">All posts <i class="fa fa-plus-circle pull-right" style="margin-top:3px;"></i></a>
+        <a href="{{ site.root_url}}posts/">All posts <i class="fa fa-plus-circle pull-right" style="margin-top:3px;"></i></a>
       </li>
     </ul>
   </div>
