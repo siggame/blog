@@ -5,7 +5,7 @@ author: "Jake Gallow"
 ---
 # MegaMinerAI 18: Saloon #
 
-![Saloon](..static/img/content/Saloon.png)
+![Saloon](static/img/content/Saloon.png)
 
 The signups for MegaMinerAI 18: Saloon are open! Round up your posse of three
 and go make your team at [MegaMinerAI.com](https://megaminerai.com). The competition is
