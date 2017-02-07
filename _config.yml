@@ -1,4 +1,4 @@
-permalink: "/blog/:categories/:year/:month/:day/:title.html" 
+permalink: pretty
 
 excerpt_separator: "<!--end excerpt-->"
 paginate: 5
@@ -10,6 +10,7 @@ highlighter: rouge
 markdown: kramdown
 
 root_url: /blog/
+root_url_alt: /blog
 static_url: /blog/static/
 production_url : "http://siggame.github.io/blog/"
 
