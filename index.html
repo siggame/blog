@@ -10,7 +10,7 @@ navbar: blog
 
 {% for post in paginator.posts %}
   <h1>
-    <a href="{{ site.root_url_alt}}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ site.root_url}}{{ post.url }}">{{ post.title }}</a>
     <small>{{ post.date | date_to_string }}</small>
   </h1>
   <div>
