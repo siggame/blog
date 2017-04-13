@@ -1,0 +1,914 @@
+{
+ "176": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   154, 
+   141
+  ], 
+  "player_1": "bye"
+ }, 
+ "133": {
+  "player_2": "dumbfreshmen", 
+  "winner": "dumbfreshmen", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79086-ec126.json.gz", 
+  "previous_matches": [
+   132, 
+   125
+  ], 
+  "player_1": "cout-the-way-"
+ }, 
+ "128": {
+  "player_2": "beep-boop", 
+  "winner": "i-am-so-dam-tree-ggered", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-78919-6a396.json.gz", 
+  "previous_matches": [
+   121, 
+   112
+  ], 
+  "player_1": "i-am-so-dam-tree-ggered"
+ }, 
+ "131": {
+  "player_2": "dummy-bots", 
+  "winner": "dummy-bots", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-78898-b632d.json.gz", 
+  "previous_matches": [
+   118, 
+   115
+  ], 
+  "player_1": "edm"
+ }, 
+ "130": {
+  "player_2": "import-teamname", 
+  "winner": "please-end-my-missouri", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-78883-92af8.json.gz", 
+  "previous_matches": [
+   119, 
+   114
+  ], 
+  "player_1": "please-end-my-missouri"
+ }, 
+ "137": {
+  "player_2": "dumbfreshmen", 
+  "winner": "dumbfreshmen", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79258-373eb.json.gz", 
+  "previous_matches": [
+   136, 
+   133
+  ], 
+  "player_1": "euphemism_winkey_face"
+ }, 
+ "136": {
+  "player_2": "i-am-so-dam-tree-ggered", 
+  "winner": "euphemism_winkey_face", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79146-77145.json.gz", 
+  "previous_matches": [
+   129, 
+   128
+  ], 
+  "player_1": "euphemism_winkey_face"
+ }, 
+ "135": {
+  "player_2": "solar-mcsolarface", 
+  "winner": "please-end-my-missouri", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79028-447af.json.gz", 
+  "previous_matches": [
+   130, 
+   127
+  ], 
+  "player_1": "please-end-my-missouri"
+ }, 
+ "134": {
+  "player_2": "the-newcastle-gnomes", 
+  "winner": "the-newcastle-gnomes", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79018-d1e72.json.gz", 
+  "previous_matches": [
+   131, 
+   126
+  ], 
+  "player_1": "dummy-bots"
+ }, 
+ "177": {
+  "player_2": "bye", 
+  "winner": "the-giving-tree", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   155, 
+   140
+  ], 
+  "player_1": "the-giving-tree"
+ }, 
+ "155": {
+  "player_2": "the-tree-amigos", 
+  "winner": "the-tree-amigos", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79039-3a2c2.json.gz", 
+  "previous_matches": [
+   132, 
+   140
+  ], 
+  "player_1": "the-giving-tree"
+ }, 
+ "139": {
+  "player_2": "dumbfreshmen", 
+  "winner": "dumbfreshmen", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79361-99536.json.gz", 
+  "previous_matches": [
+   138, 
+   137
+  ], 
+  "player_1": "the-newcastle-gnomes"
+ }, 
+ "138": {
+  "player_2": "the-newcastle-gnomes", 
+  "winner": "the-newcastle-gnomes", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79121-9aab8.json.gz", 
+  "previous_matches": [
+   135, 
+   134
+  ], 
+  "player_1": "please-end-my-missouri"
+ }, 
+ "173": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   151, 
+   144
+  ], 
+  "player_1": "bye"
+ }, 
+ "172": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   150, 
+   145
+  ], 
+  "player_1": "bye"
+ }, 
+ "171": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   149, 
+   146
+  ], 
+  "player_1": "bye"
+ }, 
+ "154": {
+  "player_2": "bye", 
+  "winner": "edm", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   131, 
+   141
+  ], 
+  "player_1": "edm"
+ }, 
+ "203": {
+  "player_2": "dumbfreshmen", 
+  "winner": "dumbfreshmen", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   202, 
+   202
+  ], 
+  "player_1": "the-newcastle-gnomes"
+ }, 
+ "183": {
+  "player_2": "bye", 
+  "winner": "edm", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   157, 
+   180
+  ], 
+  "player_1": "edm"
+ }, 
+ "175": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   153, 
+   142
+  ], 
+  "player_1": "bye"
+ }, 
+ "145": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   119, 
+   114
+  ], 
+  "player_1": "bye"
+ }, 
+ "182": {
+  "player_2": "bye", 
+  "winner": "cookie", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   156, 
+   181
+  ], 
+  "player_1": "cookie"
+ }, 
+ "195": {
+  "player_2": "camel_case_is_the_only_case", 
+  "winner": "please-end-my-missouri", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79511-2198f.json.gz", 
+  "previous_matches": [
+   167, 
+   192
+  ], 
+  "player_1": "please-end-my-missouri"
+ }, 
+ "180": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   172, 
+   175
+  ], 
+  "player_1": "bye"
+ }, 
+ "181": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   173, 
+   174
+  ], 
+  "player_1": "bye"
+ }, 
+ "186": {
+  "player_2": "the-giving-tree", 
+  "winner": "cout-the-way-", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79425-2d69b.json.gz", 
+  "previous_matches": [
+   160, 
+   185
+  ], 
+  "player_1": "cout-the-way-"
+ }, 
+ "162": {
+  "player_2": "lumberjacked", 
+  "winner": "solar-mcsolarface", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79138-952e5.json.gz", 
+  "previous_matches": [
+   135, 
+   157
+  ], 
+  "player_1": "solar-mcsolarface"
+ }, 
+ "184": {
+  "player_2": "bye", 
+  "winner": "the-segfaults", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   158, 
+   179
+  ], 
+  "player_1": "the-segfaults"
+ }, 
+ "194": {
+  "player_2": "the-tree-amigos", 
+  "winner": "the-tree-amigos", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79621-f7c78.json.gz", 
+  "previous_matches": [
+   166, 
+   193
+  ], 
+  "player_1": "dummy-bots"
+ }, 
+ "188": {
+  "player_2": "edm", 
+  "winner": "lumberjacked", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79315-78dde.json.gz", 
+  "previous_matches": [
+   162, 
+   183
+  ], 
+  "player_1": "lumberjacked"
+ }, 
+ "189": {
+  "player_2": "cookie", 
+  "winner": "the-tree-amigos", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79270-1c755.json.gz", 
+  "previous_matches": [
+   163, 
+   182
+  ], 
+  "player_1": "the-tree-amigos"
+ }, 
+ "187": {
+  "player_2": "the-segfaults", 
+  "winner": "the-segfaults", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79250-d25f3.json.gz", 
+  "previous_matches": [
+   161, 
+   184
+  ], 
+  "player_1": "import-teamname"
+ }, 
+ "185": {
+  "player_2": "the-giving-tree", 
+  "winner": "the-giving-tree", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79327-83a3f.json.gz", 
+  "previous_matches": [
+   159, 
+   178
+  ], 
+  "player_1": "beep-boop"
+ }, 
+ "120": {
+  "player_2": "bye", 
+  "winner": "camel_case_is_the_only_case", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "camel_case_is_the_only_case"
+ }, 
+ "121": {
+  "player_2": "bye", 
+  "winner": "i-am-so-dam-tree-ggered", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "i-am-so-dam-tree-ggered"
+ }, 
+ "122": {
+  "player_2": "bye", 
+  "winner": "the-segfaults", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "the-segfaults"
+ }, 
+ "123": {
+  "player_2": "bye", 
+  "winner": "the-newcastle-gnomes", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "the-newcastle-gnomes"
+ }, 
+ "168": {
+  "player_2": "i-am-so-dam-tree-ggered", 
+  "winner": "euphemism_winkey_face", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79580-f027f.json.gz", 
+  "previous_matches": [
+   166, 
+   167
+  ], 
+  "player_1": "euphemism_winkey_face"
+ }, 
+ "125": {
+  "player_2": "cookie", 
+  "winner": "dumbfreshmen", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-78979-93dc0.json.gz", 
+  "previous_matches": [
+   124, 
+   109
+  ], 
+  "player_1": "dumbfreshmen"
+ }, 
+ "126": {
+  "player_2": "lumberjacked", 
+  "winner": "the-newcastle-gnomes", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-78904-a61f3.json.gz", 
+  "previous_matches": [
+   123, 
+   110
+  ], 
+  "player_1": "the-newcastle-gnomes"
+ }, 
+ "127": {
+  "player_2": "solar-mcsolarface", 
+  "winner": "solar-mcsolarface", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-78891-4ac7f.json.gz", 
+  "previous_matches": [
+   122, 
+   111
+  ], 
+  "player_1": "the-segfaults"
+ }, 
+ "164": {
+  "player_2": "i-am-so-dam-tree-ggered", 
+  "winner": "i-am-so-dam-tree-ggered", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79338-4cd21.json.gz", 
+  "previous_matches": [
+   160, 
+   163
+  ], 
+  "player_1": "camel_case_is_the_only_case"
+ }, 
+ "165": {
+  "player_2": "solar-mcsolarface", 
+  "winner": "dummy-bots", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79321-fb69a.json.gz", 
+  "previous_matches": [
+   161, 
+   162
+  ], 
+  "player_1": "dummy-bots"
+ }, 
+ "166": {
+  "player_2": "dummy-bots", 
+  "winner": "euphemism_winkey_face", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79469-3c0be.json.gz", 
+  "previous_matches": [
+   137, 
+   165
+  ], 
+  "player_1": "euphemism_winkey_face"
+ }, 
+ "167": {
+  "player_2": "i-am-so-dam-tree-ggered", 
+  "winner": "i-am-so-dam-tree-ggered", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79401-84f52.json.gz", 
+  "previous_matches": [
+   138, 
+   164
+  ], 
+  "player_1": "please-end-my-missouri"
+ }, 
+ "160": {
+  "player_2": "camel_case_is_the_only_case", 
+  "winner": "camel_case_is_the_only_case", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79333-c0576.json.gz", 
+  "previous_matches": [
+   133, 
+   159
+  ], 
+  "player_1": "cout-the-way-"
+ }, 
+ "161": {
+  "player_2": "import-teamname", 
+  "winner": "dummy-bots", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79190-00a34.json.gz", 
+  "previous_matches": [
+   134, 
+   158
+  ], 
+  "player_1": "dummy-bots"
+ }, 
+ "129": {
+  "player_2": "euphemism_winkey_face", 
+  "winner": "euphemism_winkey_face", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-78910-2e9a4.json.gz", 
+  "previous_matches": [
+   120, 
+   113
+  ], 
+  "player_1": "camel_case_is_the_only_case"
+ }, 
+ "163": {
+  "player_2": "the-tree-amigos", 
+  "winner": "i-am-so-dam-tree-ggered", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79240-7caaa.json.gz", 
+  "previous_matches": [
+   136, 
+   156
+  ], 
+  "player_1": "i-am-so-dam-tree-ggered"
+ }, 
+ "132": {
+  "player_2": "the-giving-tree", 
+  "winner": "cout-the-way-", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-78920-f8679.json.gz", 
+  "previous_matches": [
+   117, 
+   116
+  ], 
+  "player_1": "cout-the-way-"
+ }, 
+ "151": {
+  "player_2": "bye", 
+  "winner": "beep-boop", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   128, 
+   144
+  ], 
+  "player_1": "beep-boop"
+ }, 
+ "150": {
+  "player_2": "bye", 
+  "winner": "the-segfaults", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   127, 
+   145
+  ], 
+  "player_1": "the-segfaults"
+ }, 
+ "153": {
+  "player_2": "bye", 
+  "winner": "import-teamname", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   130, 
+   142
+  ], 
+  "player_1": "import-teamname"
+ }, 
+ "152": {
+  "player_2": "bye", 
+  "winner": "camel_case_is_the_only_case", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   129, 
+   143
+  ], 
+  "player_1": "camel_case_is_the_only_case"
+ }, 
+ "199": {
+  "player_2": "the-newcastle-gnomes", 
+  "winner": "the-newcastle-gnomes", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79608-a6542.json.gz", 
+  "previous_matches": [
+   198, 
+   169
+  ], 
+  "player_1": "i-am-so-dam-tree-ggered"
+ }, 
+ "198": {
+  "player_2": "i-am-so-dam-tree-ggered", 
+  "winner": "i-am-so-dam-tree-ggered", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79726-427e1.json.gz", 
+  "previous_matches": [
+   169, 
+   197
+  ], 
+  "player_1": "euphemism_winkey_face"
+ }, 
+ "157": {
+  "player_2": "edm", 
+  "winner": "lumberjacked", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79027-e1335.json.gz", 
+  "previous_matches": [
+   149, 
+   154
+  ], 
+  "player_1": "lumberjacked"
+ }, 
+ "156": {
+  "player_2": "the-tree-amigos", 
+  "winner": "the-tree-amigos", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-78938-444f1.json.gz", 
+  "previous_matches": [
+   148, 
+   155
+  ], 
+  "player_1": "cookie"
+ }, 
+ "159": {
+  "player_2": "camel_case_is_the_only_case", 
+  "winner": "camel_case_is_the_only_case", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79158-54a72.json.gz", 
+  "previous_matches": [
+   151, 
+   152
+  ], 
+  "player_1": "beep-boop"
+ }, 
+ "158": {
+  "player_2": "import-teamname", 
+  "winner": "import-teamname", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79120-63cc5.json.gz", 
+  "previous_matches": [
+   150, 
+   153
+  ], 
+  "player_1": "the-segfaults"
+ }, 
+ "197": {
+  "player_2": "please-end-my-missouri", 
+  "winner": "i-am-so-dam-tree-ggered", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79704-789e0.json.gz", 
+  "previous_matches": [
+   168, 
+   196
+  ], 
+  "player_1": "i-am-so-dam-tree-ggered"
+ }, 
+ "196": {
+  "player_2": "please-end-my-missouri", 
+  "winner": "please-end-my-missouri", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79685-57083.json.gz", 
+  "previous_matches": [
+   194, 
+   195
+  ], 
+  "player_1": "the-tree-amigos"
+ }, 
+ "191": {
+  "player_2": "lumberjacked", 
+  "winner": "lumberjacked", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79396-a0ba0.json.gz", 
+  "previous_matches": [
+   187, 
+   188
+  ], 
+  "player_1": "the-segfaults"
+ }, 
+ "190": {
+  "player_2": "the-tree-amigos", 
+  "winner": "the-tree-amigos", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79055-e9238.json.gz", 
+  "previous_matches": [
+   186, 
+   189
+  ], 
+  "player_1": "cout-the-way-"
+ }, 
+ "193": {
+  "player_2": "the-tree-amigos", 
+  "winner": "the-tree-amigos", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79590-bc962.json.gz", 
+  "previous_matches": [
+   165, 
+   190
+  ], 
+  "player_1": "solar-mcsolarface"
+ }, 
+ "192": {
+  "player_2": "lumberjacked", 
+  "winner": "camel_case_is_the_only_case", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79457-d22d9.json.gz", 
+  "previous_matches": [
+   164, 
+   191
+  ], 
+  "player_1": "camel_case_is_the_only_case"
+ }, 
+ "115": {
+  "player_2": "bye", 
+  "winner": "dummy-bots", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "dummy-bots"
+ }, 
+ "114": {
+  "player_2": "bye", 
+  "winner": "import-teamname", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "import-teamname"
+ }, 
+ "117": {
+  "player_2": "bye", 
+  "winner": "cout-the-way-", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "cout-the-way-"
+ }, 
+ "116": {
+  "player_2": "bye", 
+  "winner": "the-giving-tree", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "the-giving-tree"
+ }, 
+ "111": {
+  "player_2": "bye", 
+  "winner": "solar-mcsolarface", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "solar-mcsolarface"
+ }, 
+ "110": {
+  "player_2": "bye", 
+  "winner": "lumberjacked", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "lumberjacked"
+ }, 
+ "113": {
+  "player_2": "bye", 
+  "winner": "euphemism_winkey_face", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "euphemism_winkey_face"
+ }, 
+ "112": {
+  "player_2": "bye", 
+  "winner": "beep-boop", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "beep-boop"
+ }, 
+ "119": {
+  "player_2": "bye", 
+  "winner": "please-end-my-missouri", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "please-end-my-missouri"
+ }, 
+ "118": {
+  "player_2": "bye", 
+  "winner": "edm", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "edm"
+ }, 
+ "204": {
+  "player_2": "dumbfreshmen", 
+  "winner": "dumbfreshmen", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   203, 
+   203
+  ], 
+  "player_1": "the-newcastle-gnomes"
+ }, 
+ "174": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   152, 
+   143
+  ], 
+  "player_1": "bye"
+ }, 
+ "179": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   171, 
+   176
+  ], 
+  "player_1": "bye"
+ }, 
+ "170": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   148, 
+   147
+  ], 
+  "player_1": "bye"
+ }, 
+ "146": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   118, 
+   115
+  ], 
+  "player_1": "bye"
+ }, 
+ "200": {
+  "player_2": "the-newcastle-gnomes", 
+  "winner": "the-newcastle-gnomes", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   199, 
+   199
+  ], 
+  "player_1": "i-am-so-dam-tree-ggered"
+ }, 
+ "144": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   120, 
+   113
+  ], 
+  "player_1": "bye"
+ }, 
+ "202": {
+  "player_2": "dumbfreshmen", 
+  "winner": "dumbfreshmen", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79958-97c35.json.gz", 
+  "previous_matches": [
+   201, 
+   201
+  ], 
+  "player_1": "the-newcastle-gnomes"
+ }, 
+ "142": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   122, 
+   111
+  ], 
+  "player_1": "bye"
+ }, 
+ "143": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   121, 
+   112
+  ], 
+  "player_1": "bye"
+ }, 
+ "140": {
+  "player_2": "bye", 
+  "winner": "the-tree-amigos", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   124, 
+   109
+  ], 
+  "player_1": "the-tree-amigos"
+ }, 
+ "141": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   123, 
+   110
+  ], 
+  "player_1": "bye"
+ }, 
+ "148": {
+  "player_2": "bye", 
+  "winner": "cookie", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   125, 
+   147
+  ], 
+  "player_1": "cookie"
+ }, 
+ "149": {
+  "player_2": "bye", 
+  "winner": "lumberjacked", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   126, 
+   146
+  ], 
+  "player_1": "lumberjacked"
+ }, 
+ "178": {
+  "player_2": "the-giving-tree", 
+  "winner": "the-giving-tree", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   170, 
+   177
+  ], 
+  "player_1": "bye"
+ }, 
+ "109": {
+  "player_2": "bye", 
+  "winner": "cookie", 
+  "log_location": "no game log", 
+  "previous_matches": [], 
+  "player_1": "cookie"
+ }, 
+ "201": {
+  "player_2": "the-newcastle-gnomes", 
+  "winner": "dumbfreshmen", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79957-79837.json.gz", 
+  "previous_matches": [
+   139, 
+   200
+  ], 
+  "player_1": "dumbfreshmen"
+ }, 
+ "147": {
+  "player_2": "bye", 
+  "winner": "bye", 
+  "log_location": "no game log", 
+  "previous_matches": [
+   117, 
+   116
+  ], 
+  "player_1": "bye"
+ }, 
+ "124": {
+  "player_2": "the-tree-amigos", 
+  "winner": "dumbfreshmen", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-78877-3db0c.json.gz", 
+  "previous_matches": [], 
+  "player_1": "dumbfreshmen"
+ }, 
+ "169": {
+  "player_2": "euphemism_winkey_face", 
+  "winner": "the-newcastle-gnomes", 
+  "log_location": "http://siggame-glogs.s3.amazonaws.com/logs/megaminer-ai-19-stumped/Stumped-79591-84209.json.gz", 
+  "previous_matches": [
+   139, 
+   168
+  ], 
+  "player_1": "the-newcastle-gnomes"
+ }
+}
